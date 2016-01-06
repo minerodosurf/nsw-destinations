@@ -1,0 +1,52 @@
+//EVENTS
+.event-row{
+	position: relative;
+		.event-date {
+	    background: rgba(0,0,0,0.7);
+	    color: $color-white;
+	    height: 60px;
+	    left: 0;
+	    position: absolute;
+	    text-transform: uppercase;
+	    top: 0;
+	    width: 80px;
+	    z-index: 11;
+		    span {
+			    font-size: 2.2rem;
+			    font-weight: 500;
+			    position: absolute;
+			    text-align: center;
+			    top: 2px;
+			    width: 30px;
+			}
+			.start-day {
+			    left: 6px;
+			}
+			.start-month {
+			    font-size: 1.4rem;
+			    left: 6px;
+			    top: 32px;
+			}
+			.separate-date {
+			    left: 35px;
+			    top: 10px;
+			    width: 10px;
+			}
+			.end-day {
+			    right: 6px;
+			}
+			.end-month {
+			    font-size: 1.4rem;
+			    right: 6px;
+			    top: 32px;
+			}
+
+		}
+		.event-title{
+			color: $blue-title;
+			margin-bottom: 15px;
+		}
+		.date{
+			margin-bottom:0;
+		}
+}

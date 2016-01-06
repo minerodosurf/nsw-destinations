@@ -1,0 +1,93 @@
+//HEADER
+#header {
+    background: $color-white;
+    padding: 15px 0 0;
+    position: relative;
+    z-index: 998;
+}
+//BRAND
+.navbar-brand {
+    background: url(../img/logo-sydney.png) no-repeat 50% 0;
+    display: block;
+    float: none;
+    width: 133px;
+    height: 38px;
+    margin: 0 auto;
+    text-indent: -999999px;
+    font-size: 0rem;
+}
+
+//SEARCH
+.search-box{
+
+
+	#search-button{
+		@include transition(all 0.5s ease);
+	    background: $color-white;
+	    color: $brand-primary;
+	    display: block;
+	    font-size: 2.4rem;
+	    line-height: 24px;
+	    position: absolute;
+	    right: 15px;
+	    top: 8px;
+	    z-index: 1000;
+
+	}
+	.search-form{
+	    position: absolute;
+	    top: 45px;
+	    right: 0;
+	    width: 100%;
+	    background-color:$brand-primary;
+	    padding:10px;
+
+		button[type='submit'] {
+		    background: transparent;
+		    border: none;
+		    color: $brand-primary;
+		    cursor: pointer;
+		    float: right;
+		    font-size: 0;
+		    font-weight: normal;
+		    line-height: 26px;
+		    margin: 0;
+		    overflow: hidden;
+		    padding: 0;
+		    text-align: center;
+		    text-transform: uppercase;
+		    width: 30px;
+		    margin-top: -30px;
+		}
+		::before{
+			font-size: 2.4rem;
+		}
+	}
+}
+
+
+//BREADCRUMB
+.breadcrumb{
+	background: rgba(white, 0.9);
+	position: relative;
+	margin-top:-33px;
+	text-align:center;
+	font-size:85%;
+	margin-bottom:10px;
+	li {
+	    display: inline-block;
+	    margin: 0;
+	    text-transform: uppercase;
+			li+li::before {
+		    padding: 0 5px;
+		    color: $light-bg;
+		    content: "/";
+		}
+	}
+	a{
+		color:$body-text;
+	}
+	.active {
+            color: $brand-primary;
+        }
+}

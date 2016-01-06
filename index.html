@@ -37,10 +37,10 @@
 	          </button>
 	          <a class="navbar-brand" href="#">Sydney.com</a>
 	          <div class="search-box">
-	          	<a href="#search-form" id="search-button" class=""><i class="fa fa-search"></i></a>
+	          	<a href="#search-form" id="search-button"><i class="fa fa-search"></i></a>
 	          	<form id="search-block-form" class="search-form" style="display: none;">
-    			<input type="search" title="Search" placeholder="Search" value="">
-    			<button type="submit" class="icon icon-only fa fa-search" title="Search this site">Submit</button>
+    			<input type="search" title="Search" placeholder="Search" class="form-control">
+    			<button type="submit" class="fa fa-search" title="Search this site">Search</button>
 				</form>
 			</div>
 	       </div>
@@ -59,13 +59,13 @@
 		  <ol class="breadcrumb">
 		    <li><a href="#">HOME</a></li>
 		    <li><a href="#">Destinations</a></li>
-		    <li><a href="#">Sydney City</a></li>
+		    <li><a href="#" class="active">Sydney City</a></li>
 		  </ol>
 		<!-- /breadcrumbs -->
 	<!-- MAIN CONTAINER -->
     <div class="container" role="main">
 		<!-- Sydney Navigation -->
-		<ul class="nav nav-tabs col-md-12">
+		<ul class="nav nav-tabs">
 		  <li role="presentation" class="dropdown">
 		    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 		      Sydney City <span class="caret"></span>
@@ -79,13 +79,13 @@
 		</ul>
 
 		<!-- Sydney City Box -->
-		<section class="text-box sydney-city col-md-12">
-			<h1>Sydney City</h1>
+		<section class="text-box sydney-city">
+			<h1>About Sydney City</h1>
 	          <p>Sydney is Australia's largest and most famous city. It's home to beautiful beaches, iconic buildings, historic landmarks, award-winning restaurants, and a vibrant culture. From the breathtaking views of Sydney Harbour to the serene tranquillity of Hyde Park, Sydney has something for everyone. If you're looking for high-energy adventure holidays, planning a honeymoon, or or searching for a fun-filled getaway, summer in Sydney is a tourist's dream with a mix of holiday options.
 			</p>
         </section>
         <!-- This Section Navigation -->
-        <section class="text-box this-section col-md-4">
+        <section class="text-box this-section">
 			<h2>In this section</h2>
 	        <ul class="nav nav-tabs">
 			  <li role="presentation" class="dropdown">
@@ -104,7 +104,7 @@
 			</ul>
 		</section>
 		<!-- Highlights Box -->
-		<section class="text-box highlights col-md-4">
+		<section class="text-box highlights">
 			<img src="img/img-highlights.png" class="img-responsive" alt="Highlights">
 			<h2>Highlights</h2>
 	          <p>Sydney is alive day and night in winter with a packed line-up of exclusive Sydney events, big-city shopping and some of Australia’s best dining experiences. The city is the beautiful backdrop to the much-loved winter festival of lights, music and ideas, Vivid, staged at venues across the city. Enjoy Sydney’s famed creative and seasonal dining, the latest foodie trends, shopping treats and family fun.
@@ -112,7 +112,7 @@
 			<img src="img/img-must-do.png" class="img-responsive" alt="Must Do">
         </section>
         <!-- Must Do Box -->
-        <section class="text-box must-do col-md-4">
+        <section class="text-box must-do">
 			<h2>Must Do</h2>
 			<ul class="list-group list-bullet">
 			  <li class="list-group-item">Bondi Beach</li>
@@ -124,10 +124,10 @@
 			</ul>
         </section>
         <!-- Events Section -->
-        <section class="text-box events col-md-12">
+        <section class="text-box events">
         	<h2>Events</h2>
         	<!-- Events Rows -->
-			<div class="event-row col-md-3">
+			<div class="event-row">
 	         <img src="img/img-events.png" class="img-responsive" alt="Highlights">
 	          <h3 class="event-title">Event Title</h3>
 	          <p class="date">Saturday 26 July to Sunday 27 July 2015</p>
@@ -142,7 +142,7 @@
 	          </div>
 	        </div>
 	        <!-- Events Rows -->
-			<div class="event-row col-md-3">
+			<div class="event-row">
 	         <img src="img/img-events.png" class="img-responsive" alt="Highlights">
 	          <h3 class="event-title">Event Title</h3>
 	          <p class="date">Saturday 26 July to Sunday 27 July 2015</p>
@@ -157,7 +157,7 @@
 	          </div>
 	        </div>
 	        <!-- Events Rows -->
-			<div class="event-row col-md-3">
+			<div class="event-row">
 	         <img src="img/img-events.png" class="img-responsive" alt="Highlights">
 	          <h3 class="event-title">Event Title</h3>
 	          <p class="date">Saturday 26 July to Sunday 27 July 2015</p>
@@ -172,7 +172,7 @@
 	          </div>
 	        </div>
 	        <!-- Events Rows -->
-			<div class="event-row col-md-3">
+			<div class="event-row">
 	         <img src="img/img-events.png" class="img-responsive" alt="Highlights">
 	          <h3 class="event-title">Event Title</h3>
 	          <p class="date">Saturday 26 July to Sunday 27 July 2015</p>
@@ -189,49 +189,49 @@
 	        <div class="more-events"><i class="fa fa-angle-down"></i></div>
         </section>
         <!-- Sydney North Box -->
-		<section class="text-box sydney-north col-md-4">
+		<section class="text-box sydney-north">
 			<h2>Sydney North</h2>
-			<img src="img/img-north.png" class="img-responsive" alt="Highlights">
+			<a href="#" onClick="return false;" class="img-link"><img src="img/img-north.png" class="img-responsive" alt="Highlights"></a>
 	          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.
 			</p>
         </section>
         <!-- Sydney South Box -->
-		<section class="text-box sydney-south col-md-4">
+		<section class="text-box sydney-south">
 			<h2>Sydney South</h2>
-			<img src="img/img-south.png" class="img-responsive" alt="Highlights">
+			<a href="#" onClick="return false;" class="img-link"><img src="img/img-south.png" class="img-responsive" alt="Highlights"></a>
 	          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.
 			</p>
         </section>
         <!-- Sydney West Box -->
-		<section class="text-box sydney-west col-md-4">
+		<section class="text-box sydney-west">
 			<h2>Sydney West</h2>
-			<img src="img/img-west.png" class="img-responsive" alt="Highlights">
+			<a href="#" onClick="return false;" class="img-link"><img src="img/img-west.png" class="img-responsive" alt="Highlights"></a>
 	          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.
 			</p>
         </section>
         <!-- Popular Box -->
-        <section class="text-box popular col-md-6">
+        <section class="text-box popular">
 			<h2>Popular pages for this area</h2>
 			<ul class="list-group">
-			  <li class="list-group-item">Bondi Beach</li>
-			  <li class="list-group-item">Coogee Beach</li>
-			  <li class="list-group-item">Maroubra Beach</li>
-			  <li class="list-group-item">Bronte Beach</li>
-			  <li class="list-group-item">Sydney East Accommodation</li>
-			  <li class="list-group-item">Bondi Accommodation</li>
-			  <li class="list-group-item">Coogee Accommodation</li>
-			  <li class="list-group-item">Moore Park Attractions</li>
+			  <li class="list-group-item"><a href="#" onClick="return false;">Bondi Beach</a></li>
+			  <li class="list-group-item"><a href="#" onClick="return false;">Coogee Beach</a></li>
+			  <li class="list-group-item"><a href="#" onClick="return false;">Maroubra Beach</a></li>
+			  <li class="list-group-item"><a href="#" onClick="return false;">Bronte Beach</a></li>
+			  <li class="list-group-item"><a href="#" onClick="return false;">Sydney East Accommodation</a></li>
+			  <li class="list-group-item"><a href="#" onClick="return false;">Bondi Accommodation</a></li>
+			  <li class="list-group-item"><a href="#" onClick="return false;">Coogee Accommodation</a></li>
+			  <li class="list-group-item"><a href="#" onClick="return false;">Moore Park Attractions</a></li>
 			</ul>
         </section>
         <!-- Local Box -->
-        <section class="text-box popular col-md-6">
+        <section class="text-box popular">
 			<h2>Local areas</h2>
 			<ul class="list-group list-bullet">
 			  <li class="list-group-item"><strong>Watsons Bay</strong> - Visit Watsons Bay and take a stroll along the picturesque coastline, or eat fish and chips at one of Australialia’s most celebrated seafood restaurants, or soak up the sun at Lady Bay - a popular nude beach!</li>
 			  <li class="list-group-item"><strong>Bondi</strong> - Bondi Beach is one of Sydney's most stunning beaches. Sydney.com lists Bondi Beach accommodation, restaurants, apartments, things to do, events & more.</li>
 			</ul>
         </section>
-        <section class="text-box slider col-md-12">
+        <section class="text-box slider">
         	<h2>Sydney City Gallery</h2>
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
@@ -268,7 +268,7 @@
 				  </a>
 				</div>
         </section>	
-		<section class="text-box social col-md-12">
+		<section class="text-box social">
 			<h2>Follow Sydney</h2>
 			<ul class="social-networks">
 				  <li><a class="icon icon-only fa fa-facebook" target="_blank">Facebook</a></li>
@@ -291,9 +291,9 @@
 				      Destination <span class="caret"></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
-				    	<li><a href="#">Music</a></li> 
-				    	<li><a href="#">Light</a></li> 
-				    	<li><a href="#">Ideas</a></li> 
+				    	<li><a href="#" onClick="return false;">Music</a></li> 
+				    	<li><a href="#" onClick="return false;">Light</a></li> 
+				    	<li><a href="#" onClick="return false;">Ideas</a></li> 
 				    </ul>
 				  </li>
 				  <li role="presentation" class="dropdown">
@@ -301,9 +301,9 @@
 				      Events <span class="caret"></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
-				    	<li><a href="#">Music</a></li> 
-				    	<li><a href="#">Light</a></li> 
-				    	<li><a href="#">Ideas</a></li> 
+				    	<li><a href="#" onClick="return false;">Music</a></li> 
+				    	<li><a href="#" onClick="return false;">Light</a></li> 
+				    	<li><a href="#" onClick="return false;">Ideas</a></li> 
 				    </ul>
 				  </li>
 				  <li role="presentation" class="dropdown">
@@ -311,9 +311,9 @@
 				      Things To Do <span class="caret"></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
-				    	<li><a href="#">Music</a></li> 
-				    	<li><a href="#">Light</a></li> 
-				    	<li><a href="#">Ideas</a></li> 
+				    	<li><a href="#" onClick="return false;">Music</a></li> 
+				    	<li><a href="#" onClick="return false;">Light</a></li> 
+				    	<li><a href="#" onClick="return false;">Ideas</a></li> 
 				    </ul>
 				  </li>
 			</ul>
@@ -324,14 +324,14 @@
 			</section>
 			<section class="text-box footer-links">
 				<ul>
-			      <li><a href="#">Education in NSW</a></li>
-			      <li><a href="#">Business in NSW</a></li>
-			      <li><a href="#">Sydney for all</a></li>
+			      <li><a href="#" onClick="return false;">Education in NSW</a></li>
+			      <li><a href="#" onClick="return false;">Business in NSW</a></li>
+			      <li><a href="#" onClick="return false;">Sydney for all</a></li>
 			    </ul>
 			    <ul class="small-links">
-			      <li><a href="#">Disclaimer</a></li>
-			      <li><a href="#">Privacy</a></li>
-			      <li><a href="#">Link to us</a></li>
+			      <li><a href="#" onClick="return false;">Disclaimer</a></li>
+			      <li><a href="#" onClick="return false;">Privacy</a></li>
+			      <li><a href="#" onClick="return false;">Link to us</a></li>
 			    </ul>
 			</section>
 			<ul class="nav nav-tabs">
@@ -340,9 +340,9 @@
 				      Sydney Accomodation <span class="caret"></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
-				    	<li><a href="#">Music</a></li> 
-				    	<li><a href="#">Light</a></li> 
-				    	<li><a href="#">Ideas</a></li> 
+				    	<li><a href="#" onClick="return false;">Music</a></li> 
+				    	<li><a href="#" onClick="return false;">Light</a></li> 
+				    	<li><a href="#" onClick="return false;">Ideas</a></li> 
 				    </ul>
 				  </li>
 				  <li role="presentation" class="dropdown">
@@ -350,15 +350,15 @@
 				      Information <span class="caret"></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
-				    	<li><a href="#">Music</a></li> 
-				    	<li><a href="#">Light</a></li> 
-				    	<li><a href="#">Ideas</a></li> 
+				    	<li><a href="#" onClick="return false;">Music</a></li> 
+				    	<li><a href="#" onClick="return false;">Light</a></li> 
+				    	<li><a href="#" onClick="return false;">Ideas</a></li> 
 				    </ul>
 				  </li>
 			</ul>
 			<p class="copyright">Sydney.com is the official tourism site for Destination New South Wales, a department of NSW Government.
 			<br>Copyright © 2015 Destination NSW. All rights reserved</p>
-			<img src="img/img-footer.png" class="img-responsive" alt="Highlights">
+			<img src="img/img-footer.png" alt="Sponsors">
 
 		</div>
 	</footer>
@@ -368,6 +368,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </body>
 </html>
