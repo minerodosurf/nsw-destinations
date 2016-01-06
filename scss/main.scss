@@ -1,12 +1,13 @@
 $brand-primary:#10a1cc;
 $light-bg: #f5f5f5;
 $border-nav: #ebebeb;
+$color-white: #FFFFFF;
 @import "compass";
 @import "bootstrap";
 
 //HEADER
 #header {
-    background: #fff;
+    background: $color-white;
     padding: 15px 10px;
     position: relative;
     z-index: 998;
@@ -24,6 +25,34 @@ $border-nav: #ebebeb;
     white-space: nowrap;
     color: transparent;
 
+}
+
+//SEARCH
+#search-button{
+    background: #fff;
+    color: #10a1cc;
+    display: block;
+    font-size: 2.4rem;
+    line-height: 24px;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    z-index: 1100;
+}
+.icon.icon-only {
+    height: 1.3em;
+    line-height: 1em;
+    margin: 0;
+    overflow: hidden;
+    padding: 0.4rem;
+    text-align: center;
+    width: 1.4em;
+}
+.icon.icon-only::before {
+    font-size: 2.4rem;
+    position: relative;
+    top: -0.05em;
+    width: 100%;
 }
 //NAVBAR
 .navbar-toggle {
@@ -45,9 +74,9 @@ $border-nav: #ebebeb;
     }
     .dropdown-menu{
     	position: relative;
-	    background: #f5f5f5;
+	    background: $light-bg;
 	    border: none;
-	    border-top: 1px solid #fff;
+	    border-top: 1px solid $color-white;
 	    list-style: none;
 	    margin: 0;
 	    padding: 0 0 5px;
@@ -61,11 +90,56 @@ $border-nav: #ebebeb;
     margin: 0 5px 10px 0;
 		li+li::before {
 	    padding: 0 5px;
-	    color: #ccc;
+	    color: $light-bg;
 	    content: "/";
 	}
 }
 
+
+//EVENTS
+.event-row{
+	position: relative;
+		.event-date {
+	    background: rgba(0,0,0,0.7);
+	    color: $color-white;
+	    height: 60px;
+	    left: 0;
+	    position: absolute;
+	    text-transform: uppercase;
+	    top: 0;
+	    width: 80px;
+	    z-index: 11;
+	    span {
+		    font-size: 2.2rem;
+		    font-weight: 500;
+		    position: absolute;
+		    text-align: center;
+		    top: 2px;
+		    width: 30px;
+		}
+		.start-day {
+		    left: 6px;
+		}
+		.start-month {
+		    font-size: 1.4rem;
+		    left: 6px;
+		    top: 32px;
+		}
+		.separate-date {
+		    left: 35px;
+		    top: 10px;
+		    width: 10px;
+		}
+		.end-day {
+		    right: 6px;
+		}
+		.end-month {
+		    font-size: 1.4rem;
+		    right: 6px;
+		    top: 32px;
+		}
+	}
+}
 
 
 

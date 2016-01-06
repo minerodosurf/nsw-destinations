@@ -7896,15 +7896,15 @@ button.close {
     display: none !important;
   }
 }
-/* line 8, ../scss/main.scss */
+/* line 9, ../scss/main.scss */
 #header {
-  background: #fff;
+  background: white;
   padding: 15px 10px;
   position: relative;
   z-index: 998;
 }
 
-/* line 15, ../scss/main.scss */
+/* line 16, ../scss/main.scss */
 .navbar-brand {
   background: url(../img/logo-sydney.png) no-repeat 50% 0;
   display: block;
@@ -7918,36 +7918,68 @@ button.close {
   color: transparent;
 }
 
-/* line 29, ../scss/main.scss */
+/* line 31, ../scss/main.scss */
+#search-button {
+  background: #fff;
+  color: #10a1cc;
+  display: block;
+  font-size: 2.4rem;
+  line-height: 24px;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  z-index: 1100;
+}
+
+/* line 42, ../scss/main.scss */
+.icon.icon-only {
+  height: 1.3em;
+  line-height: 1em;
+  margin: 0;
+  overflow: hidden;
+  padding: 0.4rem;
+  text-align: center;
+  width: 1.4em;
+}
+
+/* line 51, ../scss/main.scss */
+.icon.icon-only::before {
+  font-size: 2.4rem;
+  position: relative;
+  top: -0.05em;
+  width: 100%;
+}
+
+/* line 58, ../scss/main.scss */
 .navbar-toggle {
   color: #10a1cc;
 }
-/* line 31, ../scss/main.scss */
+/* line 60, ../scss/main.scss */
 .navbar-toggle .icon-bar {
   background-color: #10a1cc;
   height: 3px;
 }
 
-/* line 36, ../scss/main.scss */
+/* line 65, ../scss/main.scss */
 .nav-tabs {
   border-bottom: 1px solid #ebebeb;
   background: whitesmoke;
 }
-/* line 39, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 .nav-tabs li {
   width: 100%;
 }
-/* line 42, ../scss/main.scss */
+/* line 71, ../scss/main.scss */
 .nav-tabs .caret {
   float: right;
   margin-top: 5px;
 }
-/* line 46, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 .nav-tabs .dropdown-menu {
   position: relative;
-  background: #f5f5f5;
+  background: whitesmoke;
   border: none;
-  border-top: 1px solid #fff;
+  border-top: 1px solid white;
   list-style: none;
   margin: 0;
   padding: 0 0 5px;
@@ -7955,14 +7987,66 @@ button.close {
   box-shadow: none;
 }
 
-/* line 59, ../scss/main.scss */
+/* line 88, ../scss/main.scss */
 .breadcrumb li {
   display: inline-block;
   margin: 0 5px 10px 0;
 }
-/* line 62, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 .breadcrumb li li + li::before {
   padding: 0 5px;
-  color: #ccc;
+  color: whitesmoke;
   content: "/";
+}
+
+/* line 100, ../scss/main.scss */
+.event-row {
+  position: relative;
+}
+/* line 102, ../scss/main.scss */
+.event-row .event-date {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  width: 80px;
+  z-index: 11;
+}
+/* line 112, ../scss/main.scss */
+.event-row .event-date span {
+  font-size: 2.2rem;
+  font-weight: 500;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 30px;
+}
+/* line 120, ../scss/main.scss */
+.event-row .event-date .start-day {
+  left: 6px;
+}
+/* line 123, ../scss/main.scss */
+.event-row .event-date .start-month {
+  font-size: 1.4rem;
+  left: 6px;
+  top: 32px;
+}
+/* line 128, ../scss/main.scss */
+.event-row .event-date .separate-date {
+  left: 35px;
+  top: 10px;
+  width: 10px;
+}
+/* line 133, ../scss/main.scss */
+.event-row .event-date .end-day {
+  right: 6px;
+}
+/* line 136, ../scss/main.scss */
+.event-row .event-date .end-month {
+  font-size: 1.4rem;
+  right: 6px;
+  top: 32px;
 }
