@@ -1,3 +1,8 @@
+
+// Font Variables
+$cabin-regular: 'Cabin', sans-serif; 
+$cabin-semibold: 600;
+
 $brand-primary:#10a1cc;
 $light-bg: #f5f5f5;
 $border-nav: #ebebeb;
@@ -5,6 +10,12 @@ $color-white: #FFFFFF;
 @import "compass";
 @import "bootstrap";
 
+body{
+	font-family: $cabin-regular;
+}
+h1, h2, h3{
+	font-weight:$cabin-semibold;
+}
 //HEADER
 #header {
     background: $color-white;
@@ -17,14 +28,10 @@ $color-white: #FFFFFF;
     background: url(../img/logo-sydney.png) no-repeat 50% 0;
     display: block;
     float: none;
-    width: 141px;
-    height: 41px;
+    width: 133px;
+    height: 38px;
     margin: 0 auto;
-    overflow: hidden;
     text-indent: 100%;
-    white-space: nowrap;
-    color: transparent;
-
 }
 
 //SEARCH
@@ -39,6 +46,8 @@ $color-white: #FFFFFF;
     top: 3px;
     z-index: 1100;
 }
+
+//ICONS
 .icon.icon-only {
     height: 1.3em;
     line-height: 1em;
@@ -141,7 +150,16 @@ $color-white: #FFFFFF;
 	}
 }
 
-
+//TEXT BOX COMMON STYLES
+%text-box-layout{
+	padding:0;
+}
+.text-box{
+	@extend %text-box-layout;
+}
+.event-row{
+	@extend %text-box-layout;
+}
 
 
 

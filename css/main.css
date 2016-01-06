@@ -7896,7 +7896,17 @@ button.close {
     display: none !important;
   }
 }
-/* line 9, ../scss/main.scss */
+/* line 13, ../scss/main.scss */
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+/* line 16, ../scss/main.scss */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* line 20, ../scss/main.scss */
 #header {
   background: white;
   padding: 15px 10px;
@@ -7904,21 +7914,18 @@ button.close {
   z-index: 998;
 }
 
-/* line 16, ../scss/main.scss */
+/* line 27, ../scss/main.scss */
 .navbar-brand {
   background: url(../img/logo-sydney.png) no-repeat 50% 0;
   display: block;
   float: none;
-  width: 141px;
-  height: 41px;
+  width: 133px;
+  height: 38px;
   margin: 0 auto;
-  overflow: hidden;
   text-indent: 100%;
-  white-space: nowrap;
-  color: transparent;
 }
 
-/* line 31, ../scss/main.scss */
+/* line 38, ../scss/main.scss */
 #search-button {
   background: #fff;
   color: #10a1cc;
@@ -7931,7 +7938,7 @@ button.close {
   z-index: 1100;
 }
 
-/* line 42, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 .icon.icon-only {
   height: 1.3em;
   line-height: 1em;
@@ -7942,7 +7949,7 @@ button.close {
   width: 1.4em;
 }
 
-/* line 51, ../scss/main.scss */
+/* line 60, ../scss/main.scss */
 .icon.icon-only::before {
   font-size: 2.4rem;
   position: relative;
@@ -7950,31 +7957,31 @@ button.close {
   width: 100%;
 }
 
-/* line 58, ../scss/main.scss */
+/* line 67, ../scss/main.scss */
 .navbar-toggle {
   color: #10a1cc;
 }
-/* line 60, ../scss/main.scss */
+/* line 69, ../scss/main.scss */
 .navbar-toggle .icon-bar {
   background-color: #10a1cc;
   height: 3px;
 }
 
-/* line 65, ../scss/main.scss */
+/* line 74, ../scss/main.scss */
 .nav-tabs {
   border-bottom: 1px solid #ebebeb;
   background: whitesmoke;
 }
-/* line 68, ../scss/main.scss */
+/* line 77, ../scss/main.scss */
 .nav-tabs li {
   width: 100%;
 }
-/* line 71, ../scss/main.scss */
+/* line 80, ../scss/main.scss */
 .nav-tabs .caret {
   float: right;
   margin-top: 5px;
 }
-/* line 75, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 .nav-tabs .dropdown-menu {
   position: relative;
   background: whitesmoke;
@@ -7987,23 +7994,23 @@ button.close {
   box-shadow: none;
 }
 
-/* line 88, ../scss/main.scss */
+/* line 97, ../scss/main.scss */
 .breadcrumb li {
   display: inline-block;
   margin: 0 5px 10px 0;
 }
-/* line 91, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 .breadcrumb li li + li::before {
   padding: 0 5px;
   color: whitesmoke;
   content: "/";
 }
 
-/* line 100, ../scss/main.scss */
+/* line 109, ../scss/main.scss */
 .event-row {
   position: relative;
 }
-/* line 102, ../scss/main.scss */
+/* line 111, ../scss/main.scss */
 .event-row .event-date {
   background: rgba(0, 0, 0, 0.7);
   color: white;
@@ -8015,7 +8022,7 @@ button.close {
   width: 80px;
   z-index: 11;
 }
-/* line 112, ../scss/main.scss */
+/* line 121, ../scss/main.scss */
 .event-row .event-date span {
   font-size: 2.2rem;
   font-weight: 500;
@@ -8024,29 +8031,34 @@ button.close {
   top: 2px;
   width: 30px;
 }
-/* line 120, ../scss/main.scss */
+/* line 129, ../scss/main.scss */
 .event-row .event-date .start-day {
   left: 6px;
 }
-/* line 123, ../scss/main.scss */
+/* line 132, ../scss/main.scss */
 .event-row .event-date .start-month {
   font-size: 1.4rem;
   left: 6px;
   top: 32px;
 }
-/* line 128, ../scss/main.scss */
+/* line 137, ../scss/main.scss */
 .event-row .event-date .separate-date {
   left: 35px;
   top: 10px;
   width: 10px;
 }
-/* line 133, ../scss/main.scss */
+/* line 142, ../scss/main.scss */
 .event-row .event-date .end-day {
   right: 6px;
 }
-/* line 136, ../scss/main.scss */
+/* line 145, ../scss/main.scss */
 .event-row .event-date .end-month {
   font-size: 1.4rem;
   right: 6px;
   top: 32px;
+}
+
+/* line 154, ../scss/main.scss */
+.text-box, .event-row {
+  padding: 0;
 }
