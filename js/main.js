@@ -15,5 +15,17 @@ jQuery("document").ready(function($){
 	        container.hide();
 	        $("#search-button").removeClass("hidden");
     }});
+
+     // Show more or less events
+    $('.events').append('<div class="more-events"><i class="fa fa-angle-down"></i></div>');
+    $('.more-events').click(function () {
+      if ($('.events > .less-events').length > 0) {
+        $('.events li:nth-child(n + 3)').css('display', 'none');
+        $(this).removeClass('less-events');
+      } else {
+        $('.events li:nth-child(n + 3)').css('display', 'block');
+        $(this).addClass('less-events');
+      }
+    });
     
 });

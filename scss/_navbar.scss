@@ -5,6 +5,15 @@
 .navbar-fixed-top{
 	padding-top:10px;
 	background: $color-white;
+	.navbar-collapse{
+		a{
+			background: #eee;
+		    border-bottom: 3px solid $light-bg;
+		    margin: 0;
+		    padding: 5px 10px;
+		    position: relative;
+		}
+	}
 }
 .navbar-toggle {
     color: $brand-primary;
@@ -12,6 +21,7 @@
 		.icon-bar {
     		background-color: $brand-primary;
     		height: 3px;
+    		border-bottom: 1px solid #C3E7F2;
 		}
 }
 .nav-tabs {

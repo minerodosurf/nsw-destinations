@@ -364,1025 +364,6 @@ th {
     border: 1px solid #ddd !important;
   }
 }
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url("bootstrap/glyphicons-halflings-regular.eot");
-  src: url("bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-}
-
-/* line 25, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* line 38, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-asterisk:before {
-  content: "\2a";
-}
-
-/* line 39, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-plus:before {
-  content: "\2b";
-}
-
-/* line 40, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-euro:before {
-  content: "\20ac";
-}
-
-/* line 41, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-minus:before {
-  content: "\2212";
-}
-
-/* line 42, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-cloud:before {
-  content: "\2601";
-}
-
-/* line 43, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-envelope:before {
-  content: "\2709";
-}
-
-/* line 44, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-pencil:before {
-  content: "\270f";
-}
-
-/* line 45, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-glass:before {
-  content: "\e001";
-}
-
-/* line 46, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-music:before {
-  content: "\e002";
-}
-
-/* line 47, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-search:before {
-  content: "\e003";
-}
-
-/* line 48, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-heart:before {
-  content: "\e005";
-}
-
-/* line 49, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-star:before {
-  content: "\e006";
-}
-
-/* line 50, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-star-empty:before {
-  content: "\e007";
-}
-
-/* line 51, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-user:before {
-  content: "\e008";
-}
-
-/* line 52, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-film:before {
-  content: "\e009";
-}
-
-/* line 53, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-th-large:before {
-  content: "\e010";
-}
-
-/* line 54, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-th:before {
-  content: "\e011";
-}
-
-/* line 55, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-th-list:before {
-  content: "\e012";
-}
-
-/* line 56, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-ok:before {
-  content: "\e013";
-}
-
-/* line 57, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-remove:before {
-  content: "\e014";
-}
-
-/* line 58, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-zoom-in:before {
-  content: "\e015";
-}
-
-/* line 59, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-zoom-out:before {
-  content: "\e016";
-}
-
-/* line 60, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-off:before {
-  content: "\e017";
-}
-
-/* line 61, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-signal:before {
-  content: "\e018";
-}
-
-/* line 62, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-cog:before {
-  content: "\e019";
-}
-
-/* line 63, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-trash:before {
-  content: "\e020";
-}
-
-/* line 64, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-home:before {
-  content: "\e021";
-}
-
-/* line 65, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-file:before {
-  content: "\e022";
-}
-
-/* line 66, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-time:before {
-  content: "\e023";
-}
-
-/* line 67, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-road:before {
-  content: "\e024";
-}
-
-/* line 68, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-download-alt:before {
-  content: "\e025";
-}
-
-/* line 69, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-download:before {
-  content: "\e026";
-}
-
-/* line 70, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-upload:before {
-  content: "\e027";
-}
-
-/* line 71, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-inbox:before {
-  content: "\e028";
-}
-
-/* line 72, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-play-circle:before {
-  content: "\e029";
-}
-
-/* line 73, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-repeat:before {
-  content: "\e030";
-}
-
-/* line 74, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-refresh:before {
-  content: "\e031";
-}
-
-/* line 75, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-list-alt:before {
-  content: "\e032";
-}
-
-/* line 76, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-lock:before {
-  content: "\e033";
-}
-
-/* line 77, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-flag:before {
-  content: "\e034";
-}
-
-/* line 78, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-headphones:before {
-  content: "\e035";
-}
-
-/* line 79, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-volume-off:before {
-  content: "\e036";
-}
-
-/* line 80, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-volume-down:before {
-  content: "\e037";
-}
-
-/* line 81, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-volume-up:before {
-  content: "\e038";
-}
-
-/* line 82, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-qrcode:before {
-  content: "\e039";
-}
-
-/* line 83, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-barcode:before {
-  content: "\e040";
-}
-
-/* line 84, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-tag:before {
-  content: "\e041";
-}
-
-/* line 85, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-tags:before {
-  content: "\e042";
-}
-
-/* line 86, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-book:before {
-  content: "\e043";
-}
-
-/* line 87, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-bookmark:before {
-  content: "\e044";
-}
-
-/* line 88, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-print:before {
-  content: "\e045";
-}
-
-/* line 89, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-camera:before {
-  content: "\e046";
-}
-
-/* line 90, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-font:before {
-  content: "\e047";
-}
-
-/* line 91, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-bold:before {
-  content: "\e048";
-}
-
-/* line 92, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-italic:before {
-  content: "\e049";
-}
-
-/* line 93, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-text-height:before {
-  content: "\e050";
-}
-
-/* line 94, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-text-width:before {
-  content: "\e051";
-}
-
-/* line 95, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-align-left:before {
-  content: "\e052";
-}
-
-/* line 96, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-align-center:before {
-  content: "\e053";
-}
-
-/* line 97, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-align-right:before {
-  content: "\e054";
-}
-
-/* line 98, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-align-justify:before {
-  content: "\e055";
-}
-
-/* line 99, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-list:before {
-  content: "\e056";
-}
-
-/* line 100, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-indent-left:before {
-  content: "\e057";
-}
-
-/* line 101, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-indent-right:before {
-  content: "\e058";
-}
-
-/* line 102, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-facetime-video:before {
-  content: "\e059";
-}
-
-/* line 103, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-picture:before {
-  content: "\e060";
-}
-
-/* line 104, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-map-marker:before {
-  content: "\e062";
-}
-
-/* line 105, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-adjust:before {
-  content: "\e063";
-}
-
-/* line 106, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-tint:before {
-  content: "\e064";
-}
-
-/* line 107, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-edit:before {
-  content: "\e065";
-}
-
-/* line 108, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-share:before {
-  content: "\e066";
-}
-
-/* line 109, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-check:before {
-  content: "\e067";
-}
-
-/* line 110, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-move:before {
-  content: "\e068";
-}
-
-/* line 111, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-step-backward:before {
-  content: "\e069";
-}
-
-/* line 112, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-fast-backward:before {
-  content: "\e070";
-}
-
-/* line 113, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-backward:before {
-  content: "\e071";
-}
-
-/* line 114, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-play:before {
-  content: "\e072";
-}
-
-/* line 115, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-pause:before {
-  content: "\e073";
-}
-
-/* line 116, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-stop:before {
-  content: "\e074";
-}
-
-/* line 117, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-forward:before {
-  content: "\e075";
-}
-
-/* line 118, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-fast-forward:before {
-  content: "\e076";
-}
-
-/* line 119, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-step-forward:before {
-  content: "\e077";
-}
-
-/* line 120, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-eject:before {
-  content: "\e078";
-}
-
-/* line 121, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-chevron-left:before {
-  content: "\e079";
-}
-
-/* line 122, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-chevron-right:before {
-  content: "\e080";
-}
-
-/* line 123, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-plus-sign:before {
-  content: "\e081";
-}
-
-/* line 124, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-minus-sign:before {
-  content: "\e082";
-}
-
-/* line 125, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-remove-sign:before {
-  content: "\e083";
-}
-
-/* line 126, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-ok-sign:before {
-  content: "\e084";
-}
-
-/* line 127, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-question-sign:before {
-  content: "\e085";
-}
-
-/* line 128, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-info-sign:before {
-  content: "\e086";
-}
-
-/* line 129, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-screenshot:before {
-  content: "\e087";
-}
-
-/* line 130, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-remove-circle:before {
-  content: "\e088";
-}
-
-/* line 131, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-ok-circle:before {
-  content: "\e089";
-}
-
-/* line 132, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-ban-circle:before {
-  content: "\e090";
-}
-
-/* line 133, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-arrow-left:before {
-  content: "\e091";
-}
-
-/* line 134, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-arrow-right:before {
-  content: "\e092";
-}
-
-/* line 135, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-arrow-up:before {
-  content: "\e093";
-}
-
-/* line 136, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-arrow-down:before {
-  content: "\e094";
-}
-
-/* line 137, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-share-alt:before {
-  content: "\e095";
-}
-
-/* line 138, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-resize-full:before {
-  content: "\e096";
-}
-
-/* line 139, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-resize-small:before {
-  content: "\e097";
-}
-
-/* line 140, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-exclamation-sign:before {
-  content: "\e101";
-}
-
-/* line 141, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-gift:before {
-  content: "\e102";
-}
-
-/* line 142, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-leaf:before {
-  content: "\e103";
-}
-
-/* line 143, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-fire:before {
-  content: "\e104";
-}
-
-/* line 144, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-eye-open:before {
-  content: "\e105";
-}
-
-/* line 145, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-eye-close:before {
-  content: "\e106";
-}
-
-/* line 146, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-warning-sign:before {
-  content: "\e107";
-}
-
-/* line 147, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-plane:before {
-  content: "\e108";
-}
-
-/* line 148, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-calendar:before {
-  content: "\e109";
-}
-
-/* line 149, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-random:before {
-  content: "\e110";
-}
-
-/* line 150, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-comment:before {
-  content: "\e111";
-}
-
-/* line 151, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-magnet:before {
-  content: "\e112";
-}
-
-/* line 152, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-chevron-up:before {
-  content: "\e113";
-}
-
-/* line 153, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-chevron-down:before {
-  content: "\e114";
-}
-
-/* line 154, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-retweet:before {
-  content: "\e115";
-}
-
-/* line 155, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-shopping-cart:before {
-  content: "\e116";
-}
-
-/* line 156, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-folder-close:before {
-  content: "\e117";
-}
-
-/* line 157, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-folder-open:before {
-  content: "\e118";
-}
-
-/* line 158, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-resize-vertical:before {
-  content: "\e119";
-}
-
-/* line 159, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-resize-horizontal:before {
-  content: "\e120";
-}
-
-/* line 160, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-hdd:before {
-  content: "\e121";
-}
-
-/* line 161, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-bullhorn:before {
-  content: "\e122";
-}
-
-/* line 162, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-bell:before {
-  content: "\e123";
-}
-
-/* line 163, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-certificate:before {
-  content: "\e124";
-}
-
-/* line 164, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-thumbs-up:before {
-  content: "\e125";
-}
-
-/* line 165, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-thumbs-down:before {
-  content: "\e126";
-}
-
-/* line 166, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-hand-right:before {
-  content: "\e127";
-}
-
-/* line 167, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-hand-left:before {
-  content: "\e128";
-}
-
-/* line 168, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-hand-up:before {
-  content: "\e129";
-}
-
-/* line 169, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-hand-down:before {
-  content: "\e130";
-}
-
-/* line 170, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-circle-arrow-right:before {
-  content: "\e131";
-}
-
-/* line 171, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-circle-arrow-left:before {
-  content: "\e132";
-}
-
-/* line 172, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-circle-arrow-up:before {
-  content: "\e133";
-}
-
-/* line 173, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-circle-arrow-down:before {
-  content: "\e134";
-}
-
-/* line 174, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-globe:before {
-  content: "\e135";
-}
-
-/* line 175, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-wrench:before {
-  content: "\e136";
-}
-
-/* line 176, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-tasks:before {
-  content: "\e137";
-}
-
-/* line 177, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-filter:before {
-  content: "\e138";
-}
-
-/* line 178, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-briefcase:before {
-  content: "\e139";
-}
-
-/* line 179, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-fullscreen:before {
-  content: "\e140";
-}
-
-/* line 180, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-dashboard:before {
-  content: "\e141";
-}
-
-/* line 181, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-paperclip:before {
-  content: "\e142";
-}
-
-/* line 182, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-heart-empty:before {
-  content: "\e143";
-}
-
-/* line 183, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-link:before {
-  content: "\e144";
-}
-
-/* line 184, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-phone:before {
-  content: "\e145";
-}
-
-/* line 185, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-pushpin:before {
-  content: "\e146";
-}
-
-/* line 186, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-usd:before {
-  content: "\e148";
-}
-
-/* line 187, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-gbp:before {
-  content: "\e149";
-}
-
-/* line 188, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sort:before {
-  content: "\e150";
-}
-
-/* line 189, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sort-by-alphabet:before {
-  content: "\e151";
-}
-
-/* line 190, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sort-by-alphabet-alt:before {
-  content: "\e152";
-}
-
-/* line 191, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sort-by-order:before {
-  content: "\e153";
-}
-
-/* line 192, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sort-by-order-alt:before {
-  content: "\e154";
-}
-
-/* line 193, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sort-by-attributes:before {
-  content: "\e155";
-}
-
-/* line 194, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sort-by-attributes-alt:before {
-  content: "\e156";
-}
-
-/* line 195, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-unchecked:before {
-  content: "\e157";
-}
-
-/* line 196, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-expand:before {
-  content: "\e158";
-}
-
-/* line 197, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-collapse-down:before {
-  content: "\e159";
-}
-
-/* line 198, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-collapse-up:before {
-  content: "\e160";
-}
-
-/* line 199, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-log-in:before {
-  content: "\e161";
-}
-
-/* line 200, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-flash:before {
-  content: "\e162";
-}
-
-/* line 201, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-log-out:before {
-  content: "\e163";
-}
-
-/* line 202, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-new-window:before {
-  content: "\e164";
-}
-
-/* line 203, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-record:before {
-  content: "\e165";
-}
-
-/* line 204, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-save:before {
-  content: "\e166";
-}
-
-/* line 205, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-open:before {
-  content: "\e167";
-}
-
-/* line 206, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-saved:before {
-  content: "\e168";
-}
-
-/* line 207, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-import:before {
-  content: "\e169";
-}
-
-/* line 208, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-export:before {
-  content: "\e170";
-}
-
-/* line 209, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-send:before {
-  content: "\e171";
-}
-
-/* line 210, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-floppy-disk:before {
-  content: "\e172";
-}
-
-/* line 211, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-floppy-saved:before {
-  content: "\e173";
-}
-
-/* line 212, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-floppy-remove:before {
-  content: "\e174";
-}
-
-/* line 213, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-floppy-save:before {
-  content: "\e175";
-}
-
-/* line 214, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-floppy-open:before {
-  content: "\e176";
-}
-
-/* line 215, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-credit-card:before {
-  content: "\e177";
-}
-
-/* line 216, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-transfer:before {
-  content: "\e178";
-}
-
-/* line 217, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-cutlery:before {
-  content: "\e179";
-}
-
-/* line 218, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-header:before {
-  content: "\e180";
-}
-
-/* line 219, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-compressed:before {
-  content: "\e181";
-}
-
-/* line 220, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-earphone:before {
-  content: "\e182";
-}
-
-/* line 221, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-phone-alt:before {
-  content: "\e183";
-}
-
-/* line 222, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-tower:before {
-  content: "\e184";
-}
-
-/* line 223, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-stats:before {
-  content: "\e185";
-}
-
-/* line 224, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sd-video:before {
-  content: "\e186";
-}
-
-/* line 225, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-hd-video:before {
-  content: "\e187";
-}
-
-/* line 226, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-subtitles:before {
-  content: "\e188";
-}
-
-/* line 227, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sound-stereo:before {
-  content: "\e189";
-}
-
-/* line 228, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sound-dolby:before {
-  content: "\e190";
-}
-
-/* line 229, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sound-5-1:before {
-  content: "\e191";
-}
-
-/* line 230, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sound-6-1:before {
-  content: "\e192";
-}
-
-/* line 231, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-sound-7-1:before {
-  content: "\e193";
-}
-
-/* line 232, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-copyright-mark:before {
-  content: "\e194";
-}
-
-/* line 233, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-registration-mark:before {
-  content: "\e195";
-}
-
-/* line 234, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-cloud-download:before {
-  content: "\e197";
-}
-
-/* line 235, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-cloud-upload:before {
-  content: "\e198";
-}
-
-/* line 236, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-tree-conifer:before {
-  content: "\e199";
-}
-
-/* line 237, ../assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-tree-deciduous:before {
-  content: "\e200";
-}
-
 /* line 11, ../assets/stylesheets/bootstrap/_scaffolding.scss */
 * {
   -webkit-box-sizing: border-box;
@@ -1944,63 +925,6 @@ address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857;
-}
-
-/* line 10, ../assets/stylesheets/bootstrap/_code.scss */
-code,
-kbd,
-pre,
-samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-/* line 15, ../assets/stylesheets/bootstrap/_code.scss */
-code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 4px;
-}
-
-/* line 24, ../assets/stylesheets/bootstrap/_code.scss */
-kbd {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: white;
-  background-color: #333333;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
-}
-
-/* line 34, ../assets/stylesheets/bootstrap/_code.scss */
-pre {
-  display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
-  line-height: 1.42857;
-  word-break: break-all;
-  word-wrap: break-word;
-  color: #333333;
-  background-color: whitesmoke;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-}
-/* line 48, ../assets/stylesheets/bootstrap/_code.scss */
-pre code {
-  padding: 0;
-  font-size: inherit;
-  color: inherit;
-  white-space: pre-wrap;
-  background-color: transparent;
-  border-radius: 0;
-}
-
-/* line 59, ../assets/stylesheets/bootstrap/_code.scss */
-.pre-scrollable {
-  max-height: 340px;
-  overflow-y: scroll;
 }
 
 /* line 10, ../assets/stylesheets/bootstrap/_grid.scss */
@@ -3121,268 +2045,6 @@ pre code {
     margin-left: 100%;
   }
 }
-/* line 6, ../assets/stylesheets/bootstrap/_tables.scss */
-table {
-  max-width: 100%;
-  background-color: transparent;
-}
-
-/* line 10, ../assets/stylesheets/bootstrap/_tables.scss */
-th {
-  text-align: left;
-}
-
-/* line 17, ../assets/stylesheets/bootstrap/_tables.scss */
-.table {
-  width: 100%;
-  margin-bottom: 20px;
-}
-/* line 26, ../assets/stylesheets/bootstrap/_tables.scss */
-.table > thead > tr > th,
-.table > thead > tr > td,
-.table > tbody > tr > th,
-.table > tbody > tr > td,
-.table > tfoot > tr > th,
-.table > tfoot > tr > td {
-  padding: 8px;
-  line-height: 1.42857;
-  vertical-align: top;
-  border-top: 1px solid #dddddd;
-}
-/* line 35, ../assets/stylesheets/bootstrap/_tables.scss */
-.table > thead > tr > th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #dddddd;
-}
-/* line 45, ../assets/stylesheets/bootstrap/_tables.scss */
-.table > caption + thead > tr:first-child > th,
-.table > caption + thead > tr:first-child > td,
-.table > colgroup + thead > tr:first-child > th,
-.table > colgroup + thead > tr:first-child > td,
-.table > thead:first-child > tr:first-child > th,
-.table > thead:first-child > tr:first-child > td {
-  border-top: 0;
-}
-/* line 51, ../assets/stylesheets/bootstrap/_tables.scss */
-.table > tbody + tbody {
-  border-top: 2px solid #dddddd;
-}
-/* line 56, ../assets/stylesheets/bootstrap/_tables.scss */
-.table .table {
-  background-color: white;
-}
-
-/* line 70, ../assets/stylesheets/bootstrap/_tables.scss */
-.table-condensed > thead > tr > th,
-.table-condensed > thead > tr > td,
-.table-condensed > tbody > tr > th,
-.table-condensed > tbody > tr > td,
-.table-condensed > tfoot > tr > th,
-.table-condensed > tfoot > tr > td {
-  padding: 5px;
-}
-
-/* line 82, ../assets/stylesheets/bootstrap/_tables.scss */
-.table-bordered {
-  border: 1px solid #dddddd;
-}
-/* line 89, ../assets/stylesheets/bootstrap/_tables.scss */
-.table-bordered > thead > tr > th,
-.table-bordered > thead > tr > td,
-.table-bordered > tbody > tr > th,
-.table-bordered > tbody > tr > td,
-.table-bordered > tfoot > tr > th,
-.table-bordered > tfoot > tr > td {
-  border: 1px solid #dddddd;
-}
-/* line 96, ../assets/stylesheets/bootstrap/_tables.scss */
-.table-bordered > thead > tr > th,
-.table-bordered > thead > tr > td {
-  border-bottom-width: 2px;
-}
-
-/* line 110, ../assets/stylesheets/bootstrap/_tables.scss */
-.table-striped > tbody > tr:nth-child(odd) > td,
-.table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #f9f9f9;
-}
-
-/* line 124, ../assets/stylesheets/bootstrap/_tables.scss */
-.table-hover > tbody > tr:hover > td,
-.table-hover > tbody > tr:hover > th {
-  background-color: whitesmoke;
-}
-
-/* line 135, ../assets/stylesheets/bootstrap/_tables.scss */
-table col[class*="col-"] {
-  position: static;
-  float: none;
-  display: table-column;
-}
-
-/* line 143, ../assets/stylesheets/bootstrap/_tables.scss */
-table td[class*="col-"],
-table th[class*="col-"] {
-  position: static;
-  float: none;
-  display: table-cell;
-}
-
-/* line 12, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.active,
-.table > thead > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th,
-.table > tbody > tr > td.active,
-.table > tbody > tr > th.active,
-.table > tbody > tr.active > td,
-.table > tbody > tr.active > th,
-.table > tfoot > tr > td.active,
-.table > tfoot > tr > th.active,
-.table > tfoot > tr.active > td,
-.table > tfoot > tr.active > th {
-  background-color: whitesmoke;
-}
-
-/* line 24, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.active:hover,
-.table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8;
-}
-
-/* line 12, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.success,
-.table > thead > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th,
-.table > tbody > tr > td.success,
-.table > tbody > tr > th.success,
-.table > tbody > tr.success > td,
-.table > tbody > tr.success > th,
-.table > tfoot > tr > td.success,
-.table > tfoot > tr > th.success,
-.table > tfoot > tr.success > td,
-.table > tfoot > tr.success > th {
-  background-color: #dff0d8;
-}
-
-/* line 24, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.success:hover,
-.table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th {
-  background-color: #d0e9c6;
-}
-
-/* line 12, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.info,
-.table > thead > tr > th.info, .table > thead > tr.info > td, .table > thead > tr.info > th,
-.table > tbody > tr > td.info,
-.table > tbody > tr > th.info,
-.table > tbody > tr.info > td,
-.table > tbody > tr.info > th,
-.table > tfoot > tr > td.info,
-.table > tfoot > tr > th.info,
-.table > tfoot > tr.info > td,
-.table > tfoot > tr.info > th {
-  background-color: #d9edf7;
-}
-
-/* line 24, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.info:hover,
-.table-hover > tbody > tr > th.info:hover, .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
-  background-color: #c4e3f3;
-}
-
-/* line 12, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.warning,
-.table > thead > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th,
-.table > tbody > tr > td.warning,
-.table > tbody > tr > th.warning,
-.table > tbody > tr.warning > td,
-.table > tbody > tr.warning > th,
-.table > tfoot > tr > td.warning,
-.table > tfoot > tr > th.warning,
-.table > tfoot > tr.warning > td,
-.table > tfoot > tr.warning > th {
-  background-color: #fcf8e3;
-}
-
-/* line 24, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.warning:hover,
-.table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr.warning:hover > th {
-  background-color: #faf2cc;
-}
-
-/* line 12, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table > thead > tr > td.danger,
-.table > thead > tr > th.danger, .table > thead > tr.danger > td, .table > thead > tr.danger > th,
-.table > tbody > tr > td.danger,
-.table > tbody > tr > th.danger,
-.table > tbody > tr.danger > td,
-.table > tbody > tr.danger > th,
-.table > tfoot > tr > td.danger,
-.table > tfoot > tr > th.danger,
-.table > tfoot > tr.danger > td,
-.table > tfoot > tr.danger > th {
-  background-color: #f2dede;
-}
-
-/* line 24, ../assets/stylesheets/bootstrap/mixins/_table-row.scss */
-.table-hover > tbody > tr > td.danger:hover,
-.table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr.danger:hover > th {
-  background-color: #ebcccc;
-}
-
-@media screen and (max-width: 767px) {
-  /* line 171, ../assets/stylesheets/bootstrap/_tables.scss */
-  .table-responsive {
-    width: 100%;
-    margin-bottom: 15px;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #dddddd;
-    -webkit-overflow-scrolling: touch;
-  }
-  /* line 182, ../assets/stylesheets/bootstrap/_tables.scss */
-  .table-responsive > .table {
-    margin-bottom: 0;
-  }
-  /* line 191, ../assets/stylesheets/bootstrap/_tables.scss */
-  .table-responsive > .table > thead > tr > th,
-  .table-responsive > .table > thead > tr > td,
-  .table-responsive > .table > tbody > tr > th,
-  .table-responsive > .table > tbody > tr > td,
-  .table-responsive > .table > tfoot > tr > th,
-  .table-responsive > .table > tfoot > tr > td {
-    white-space: nowrap;
-  }
-  /* line 199, ../assets/stylesheets/bootstrap/_tables.scss */
-  .table-responsive > .table-bordered {
-    border: 0;
-  }
-  /* line 208, ../assets/stylesheets/bootstrap/_tables.scss */
-  .table-responsive > .table-bordered > thead > tr > th:first-child,
-  .table-responsive > .table-bordered > thead > tr > td:first-child,
-  .table-responsive > .table-bordered > tbody > tr > th:first-child,
-  .table-responsive > .table-bordered > tbody > tr > td:first-child,
-  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
-  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
-    border-left: 0;
-  }
-  /* line 212, ../assets/stylesheets/bootstrap/_tables.scss */
-  .table-responsive > .table-bordered > thead > tr > th:last-child,
-  .table-responsive > .table-bordered > thead > tr > td:last-child,
-  .table-responsive > .table-bordered > tbody > tr > th:last-child,
-  .table-responsive > .table-bordered > tbody > tr > td:last-child,
-  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
-  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
-    border-right: 0;
-  }
-  /* line 225, ../assets/stylesheets/bootstrap/_tables.scss */
-  .table-responsive > .table-bordered > tbody > tr:last-child > th,
-  .table-responsive > .table-bordered > tbody > tr:last-child > td,
-  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
-  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
-    border-bottom: 0;
-  }
-}
-
 /* line 10, ../assets/stylesheets/bootstrap/_forms.scss */
 fieldset {
   padding: 0;
@@ -5618,113 +4280,6 @@ tbody.collapse.in {
   color: #999999;
 }
 
-/* line 4, ../assets/stylesheets/bootstrap/_pagination.scss */
-.pagination {
-  display: inline-block;
-  padding-left: 0;
-  margin: 20px 0;
-  border-radius: 4px;
-}
-/* line 10, ../assets/stylesheets/bootstrap/_pagination.scss */
-.pagination > li {
-  display: inline;
-}
-/* line 13, ../assets/stylesheets/bootstrap/_pagination.scss */
-.pagination > li > a,
-.pagination > li > span {
-  position: relative;
-  float: left;
-  padding: 6px 12px;
-  line-height: 1.42857;
-  text-decoration: none;
-  color: #10a1cc;
-  background-color: white;
-  border: 1px solid #dddddd;
-  margin-left: -1px;
-}
-/* line 26, ../assets/stylesheets/bootstrap/_pagination.scss */
-.pagination > li:first-child > a,
-.pagination > li:first-child > span {
-  margin-left: 0;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
-}
-/* line 33, ../assets/stylesheets/bootstrap/_pagination.scss */
-.pagination > li:last-child > a,
-.pagination > li:last-child > span {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
-}
-/* line 42, ../assets/stylesheets/bootstrap/_pagination.scss */
-.pagination > li > a:hover, .pagination > li > a:focus,
-.pagination > li > span:hover,
-.pagination > li > span:focus {
-  color: #0a6985;
-  background-color: #eeeeee;
-  border-color: #dddddd;
-}
-/* line 53, ../assets/stylesheets/bootstrap/_pagination.scss */
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
-.pagination > .active > span,
-.pagination > .active > span:hover,
-.pagination > .active > span:focus {
-  z-index: 2;
-  color: white;
-  background-color: #10a1cc;
-  border-color: #10a1cc;
-  cursor: default;
-}
-/* line 68, ../assets/stylesheets/bootstrap/_pagination.scss */
-.pagination > .disabled > span,
-.pagination > .disabled > span:hover,
-.pagination > .disabled > span:focus,
-.pagination > .disabled > a,
-.pagination > .disabled > a:hover,
-.pagination > .disabled > a:focus {
-  color: #999999;
-  background-color: white;
-  border-color: #dddddd;
-  cursor: not-allowed;
-}
-
-/* line 6, ../assets/stylesheets/bootstrap/mixins/_pagination.scss */
-.pagination-lg > li > a,
-.pagination-lg > li > span {
-  padding: 10px 16px;
-  font-size: 18px;
-}
-/* line 12, ../assets/stylesheets/bootstrap/mixins/_pagination.scss */
-.pagination-lg > li:first-child > a,
-.pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
-}
-/* line 18, ../assets/stylesheets/bootstrap/mixins/_pagination.scss */
-.pagination-lg > li:last-child > a,
-.pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px;
-}
-
-/* line 6, ../assets/stylesheets/bootstrap/mixins/_pagination.scss */
-.pagination-sm > li > a,
-.pagination-sm > li > span {
-  padding: 5px 10px;
-  font-size: 12px;
-}
-/* line 12, ../assets/stylesheets/bootstrap/mixins/_pagination.scss */
-.pagination-sm > li:first-child > a,
-.pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
-}
-/* line 18, ../assets/stylesheets/bootstrap/mixins/_pagination.scss */
-.pagination-sm > li:last-child > a,
-.pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-}
-
 /* line 6, ../assets/stylesheets/bootstrap/_pager.scss */
 .pager {
   padding-left: 0;
@@ -5864,100 +4419,6 @@ a.label:hover, a.label:focus {
   background-color: #c9302c;
 }
 
-/* line 7, ../assets/stylesheets/bootstrap/_badges.scss */
-.badge {
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: bold;
-  color: white;
-  line-height: 1;
-  vertical-align: baseline;
-  white-space: nowrap;
-  text-align: center;
-  background-color: #999999;
-  border-radius: 10px;
-}
-/* line 22, ../assets/stylesheets/bootstrap/_badges.scss */
-.badge:empty {
-  display: none;
-}
-/* line 27, ../assets/stylesheets/bootstrap/_badges.scss */
-.btn .badge {
-  position: relative;
-  top: -1px;
-}
-/* line 31, ../assets/stylesheets/bootstrap/_badges.scss */
-.btn-xs .badge, .btn-group-xs > .btn .badge {
-  top: 0;
-  padding: 1px 5px;
-}
-/* line 40, ../assets/stylesheets/bootstrap/_badges.scss */
-a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #10a1cc;
-  background-color: white;
-}
-/* line 44, ../assets/stylesheets/bootstrap/_badges.scss */
-.nav-pills > li > a > .badge {
-  margin-left: 3px;
-}
-
-/* line 52, ../assets/stylesheets/bootstrap/_badges.scss */
-a.badge:hover, a.badge:focus {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* line 6, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-.jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eeeeee;
-}
-/* line 13, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-.jumbotron h1,
-.jumbotron .h1 {
-  color: inherit;
-}
-/* line 16, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-.jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-}
-/* line 22, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-.jumbotron > hr {
-  border-top-color: #d5d5d5;
-}
-/* line 26, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-.container .jumbotron {
-  border-radius: 6px;
-}
-/* line 30, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-.jumbotron .container {
-  max-width: 100%;
-}
-@media screen and (min-width: 768px) {
-  /* line 6, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-  .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-  /* line 38, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-  .container .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  /* line 44, ../assets/stylesheets/bootstrap/_jumbotron.scss */
-  .jumbotron h1,
-  .jumbotron .h1 {
-    font-size: 63px;
-  }
-}
-
 /* line 7, ../assets/stylesheets/bootstrap/_thumbnails.scss */
 .thumbnail {
   display: block;
@@ -5991,216 +4452,6 @@ a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
   border-color: #10a1cc;
-}
-
-/* line 9, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert {
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-/* line 16, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert h4 {
-  margin-top: 0;
-  color: inherit;
-}
-/* line 22, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert .alert-link {
-  font-weight: bold;
-}
-/* line 28, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert > p,
-.alert > ul {
-  margin-bottom: 0;
-}
-/* line 31, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert > p + p {
-  margin-top: 5px;
-}
-
-/* line 40, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert-dismissable {
-  padding-right: 35px;
-}
-/* line 44, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert-dismissable .close {
-  position: relative;
-  top: -2px;
-  right: -21px;
-  color: inherit;
-}
-
-/* line 56, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert-success {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-  color: #3c763d;
-}
-/* line 8, ../assets/stylesheets/bootstrap/mixins/_alerts.scss */
-.alert-success hr {
-  border-top-color: #c9e2b3;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_alerts.scss */
-.alert-success .alert-link {
-  color: #2b542c;
-}
-
-/* line 59, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert-info {
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-  color: #31708f;
-}
-/* line 8, ../assets/stylesheets/bootstrap/mixins/_alerts.scss */
-.alert-info hr {
-  border-top-color: #a6e1ec;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_alerts.scss */
-.alert-info .alert-link {
-  color: #245269;
-}
-
-/* line 62, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert-warning {
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-  color: #8a6d3b;
-}
-/* line 8, ../assets/stylesheets/bootstrap/mixins/_alerts.scss */
-.alert-warning hr {
-  border-top-color: #f7e1b5;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_alerts.scss */
-.alert-warning .alert-link {
-  color: #66512c;
-}
-
-/* line 65, ../assets/stylesheets/bootstrap/_alerts.scss */
-.alert-danger {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-/* line 8, ../assets/stylesheets/bootstrap/mixins/_alerts.scss */
-.alert-danger hr {
-  border-top-color: #e4b9c0;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_alerts.scss */
-.alert-danger .alert-link {
-  color: #843534;
-}
-
-@keyframes progress-bar-stripes {
-  /* line 10, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-  from {
-    background-position: 40px 0;
-  }
-
-  /* line 11, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-  to {
-    background-position: 0 0;
-  }
-}
-
-/* line 20, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress {
-  overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
-  background-color: whitesmoke;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-/* line 30, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress-bar {
-  float: left;
-  width: 0%;
-  height: 100%;
-  font-size: 12px;
-  line-height: 20px;
-  color: white;
-  text-align: center;
-  background-color: #10a1cc;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
-  transition: width 0.6s ease;
-}
-
-/* line 44, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress-striped .progress-bar {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-size: 40px 40px;
-}
-
-/* line 50, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress.active .progress-bar {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -o-animation: progress-bar-stripes 2s linear infinite;
-  animation: progress-bar-stripes 2s linear infinite;
-}
-
-/* line 57, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress-bar[aria-valuenow="1"], .progress-bar[aria-valuenow="2"] {
-  min-width: 30px;
-}
-/* line 61, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress-bar[aria-valuenow="0"] {
-  color: #999999;
-  min-width: 30px;
-  background-color: transparent;
-  background-image: none;
-  box-shadow: none;
-}
-
-/* line 75, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress-bar-success {
-  background-color: #5cb85c;
-}
-/* line 5, ../assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
-.progress-striped .progress-bar-success {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-
-/* line 79, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress-bar-info {
-  background-color: #5bc0de;
-}
-/* line 5, ../assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
-.progress-striped .progress-bar-info {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-
-/* line 83, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress-bar-warning {
-  background-color: #f0ad4e;
-}
-/* line 5, ../assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
-.progress-striped .progress-bar-warning {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-
-/* line 87, ../assets/stylesheets/bootstrap/_progress-bars.scss */
-.progress-bar-danger {
-  background-color: #d9534f;
-}
-/* line 5, ../assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
-.progress-striped .progress-bar-danger {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 /* line 11, ../assets/stylesheets/bootstrap/_media.scss */
@@ -6441,427 +4692,6 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   line-height: 1.3;
 }
 
-/* line 7, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel {
-  margin-bottom: 20px;
-  background-color: white;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-/* line 16, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-body {
-  padding: 15px;
-}
-/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.panel-body:before, .panel-body:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.panel-body:after {
-  clear: both;
-}
-
-/* line 22, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-heading {
-  padding: 10px 15px;
-  border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
-}
-/* line 27, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-heading > .dropdown .dropdown-toggle {
-  color: inherit;
-}
-
-/* line 33, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 16px;
-  color: inherit;
-}
-/* line 39, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-title > a {
-  color: inherit;
-}
-
-/* line 45, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-footer {
-  padding: 10px 15px;
-  background-color: whitesmoke;
-  border-top: 1px solid #dddddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-/* line 59, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .list-group {
-  margin-bottom: 0;
-}
-/* line 62, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .list-group .list-group-item {
-  border-width: 1px 0;
-  border-radius: 0;
-}
-/* line 69, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .list-group:first-child .list-group-item:first-child {
-  border-top: 0;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
-}
-/* line 76, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .list-group:last-child .list-group-item:last-child {
-  border-bottom: 0;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-/* line 85, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-heading + .list-group .list-group-item:first-child {
-  border-top-width: 0;
-}
-
-/* line 98, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table,
-.panel > .table-responsive > .table {
-  margin-bottom: 0;
-}
-/* line 103, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table:first-child,
-.panel > .table-responsive:first-child > .table:first-child {
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
-}
-/* line 110, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
-.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
-  border-top-left-radius: 3px;
-}
-/* line 114, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
-.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
-.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
-.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
-.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
-  border-top-right-radius: 3px;
-}
-/* line 122, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table:last-child,
-.panel > .table-responsive:last-child > .table:last-child {
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-/* line 129, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
-.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
-  border-bottom-left-radius: 3px;
-}
-/* line 133, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
-.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
-.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
-.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
-  border-bottom-right-radius: 3px;
-}
-/* line 140, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .panel-body + .table,
-.panel > .panel-body + .table-responsive {
-  border-top: 1px solid #dddddd;
-}
-/* line 144, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table > tbody:first-child > tr:first-child th,
-.panel > .table > tbody:first-child > tr:first-child td {
-  border-top: 0;
-}
-/* line 148, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table-bordered,
-.panel > .table-responsive > .table-bordered {
-  border: 0;
-}
-/* line 155, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table-bordered > thead > tr > th:first-child,
-.panel > .table-bordered > thead > tr > td:first-child,
-.panel > .table-bordered > tbody > tr > th:first-child,
-.panel > .table-bordered > tbody > tr > td:first-child,
-.panel > .table-bordered > tfoot > tr > th:first-child,
-.panel > .table-bordered > tfoot > tr > td:first-child,
-.panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
-.panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
-.panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
-.panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
-.panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
-.panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
-  border-left: 0;
-}
-/* line 159, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table-bordered > thead > tr > th:last-child,
-.panel > .table-bordered > thead > tr > td:last-child,
-.panel > .table-bordered > tbody > tr > th:last-child,
-.panel > .table-bordered > tbody > tr > td:last-child,
-.panel > .table-bordered > tfoot > tr > th:last-child,
-.panel > .table-bordered > tfoot > tr > td:last-child,
-.panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
-.panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
-.panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
-.panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
-.panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
-.panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
-  border-right: 0;
-}
-/* line 168, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table-bordered > thead > tr:first-child > td,
-.panel > .table-bordered > thead > tr:first-child > th,
-.panel > .table-bordered > tbody > tr:first-child > td,
-.panel > .table-bordered > tbody > tr:first-child > th,
-.panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
-.panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
-.panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
-.panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
-  border-bottom: 0;
-}
-/* line 177, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table-bordered > tbody > tr:last-child > td,
-.panel > .table-bordered > tbody > tr:last-child > th,
-.panel > .table-bordered > tfoot > tr:last-child > td,
-.panel > .table-bordered > tfoot > tr:last-child > th,
-.panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
-.panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
-.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
-.panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
-  border-bottom: 0;
-}
-/* line 183, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table-responsive {
-  border: 0;
-  margin-bottom: 0;
-}
-
-/* line 195, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-group {
-  margin-bottom: 20px;
-}
-/* line 199, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-group .panel {
-  margin-bottom: 0;
-  border-radius: 4px;
-}
-/* line 202, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-group .panel + .panel {
-  margin-top: 5px;
-}
-/* line 207, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-group .panel-heading {
-  border-bottom: 0;
-}
-/* line 209, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-group .panel-heading + .panel-collapse .panel-body {
-  border-top: 1px solid #dddddd;
-}
-/* line 213, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-group .panel-footer {
-  border-top: 0;
-}
-/* line 215, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-group .panel-footer + .panel-collapse .panel-body {
-  border-bottom: 1px solid #dddddd;
-}
-
-/* line 223, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-default {
-  border-color: #dddddd;
-}
-/* line 6, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-default > .panel-heading {
-  color: #333333;
-  background-color: whitesmoke;
-  border-color: #dddddd;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #dddddd;
-}
-/* line 16, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-default > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #dddddd;
-}
-
-/* line 226, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-primary {
-  border-color: #10a1cc;
-}
-/* line 6, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-primary > .panel-heading {
-  color: white;
-  background-color: #10a1cc;
-  border-color: #10a1cc;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #10a1cc;
-}
-/* line 16, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #10a1cc;
-}
-
-/* line 229, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-success {
-  border-color: #d6e9c6;
-}
-/* line 6, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-success > .panel-heading {
-  color: #3c763d;
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-success > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #d6e9c6;
-}
-/* line 16, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-success > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #d6e9c6;
-}
-
-/* line 232, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-info {
-  border-color: #bce8f1;
-}
-/* line 6, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-info > .panel-heading {
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-info > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #bce8f1;
-}
-/* line 16, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-info > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #bce8f1;
-}
-
-/* line 235, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-warning {
-  border-color: #faebcc;
-}
-/* line 6, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-warning > .panel-heading {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-warning > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #faebcc;
-}
-/* line 16, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-warning > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #faebcc;
-}
-
-/* line 238, ../assets/stylesheets/bootstrap/_panels.scss */
-.panel-danger {
-  border-color: #ebccd1;
-}
-/* line 6, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-danger > .panel-heading {
-  color: #a94442;
-  background-color: #f2dede;
-  border-color: #ebccd1;
-}
-/* line 11, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-danger > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #ebccd1;
-}
-/* line 16, ../assets/stylesheets/bootstrap/mixins/_panels.scss */
-.panel-danger > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #ebccd1;
-}
-
-/* line 5, ../assets/stylesheets/bootstrap/_responsive-embed.scss */
-.embed-responsive {
-  position: relative;
-  display: block;
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-}
-/* line 15, ../assets/stylesheets/bootstrap/_responsive-embed.scss */
-.embed-responsive .embed-responsive-item,
-.embed-responsive iframe,
-.embed-responsive embed,
-.embed-responsive object {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  border: 0;
-}
-/* line 26, ../assets/stylesheets/bootstrap/_responsive-embed.scss */
-.embed-responsive.embed-responsive-16by9 {
-  padding-bottom: 56.25%;
-}
-/* line 31, ../assets/stylesheets/bootstrap/_responsive-embed.scss */
-.embed-responsive.embed-responsive-4by3 {
-  padding-bottom: 75%;
-}
-
-/* line 7, ../assets/stylesheets/bootstrap/_wells.scss */
-.well {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: whitesmoke;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-/* line 15, ../assets/stylesheets/bootstrap/_wells.scss */
-.well blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
-}
-
-/* line 22, ../assets/stylesheets/bootstrap/_wells.scss */
-.well-lg {
-  padding: 24px;
-  border-radius: 6px;
-}
-
-/* line 26, ../assets/stylesheets/bootstrap/_wells.scss */
-.well-sm {
-  padding: 9px;
-  border-radius: 3px;
-}
-
 /* line 6, ../assets/stylesheets/bootstrap/_close.scss */
 .close {
   float: right;
@@ -6889,432 +4719,6 @@ button.close {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
-}
-
-/* line 11, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-open {
-  overflow: hidden;
-}
-
-/* line 16, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal {
-  display: none;
-  overflow: auto;
-  overflow-y: scroll;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1050;
-  -webkit-overflow-scrolling: touch;
-  outline: 0;
-}
-/* line 33, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal.fade .modal-dialog {
-  -webkit-transform: translate(0, -25%);
-  -ms-transform: translate(0, -25%);
-  -o-transform: translate(0, -25%);
-  transform: translate(0, -25%);
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  -moz-transition: -moz-transform 0.3s ease-out;
-  -o-transition: -o-transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-}
-/* line 37, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal.in .modal-dialog {
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-
-/* line 41, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-dialog {
-  position: relative;
-  width: auto;
-  margin: 10px;
-}
-
-/* line 48, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-content {
-  position: relative;
-  background-color: white;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  background-clip: padding-box;
-  outline: 0;
-}
-
-/* line 61, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1040;
-  background-color: black;
-}
-/* line 70, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-backdrop.fade {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-/* line 71, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-backdrop.in {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-
-/* line 76, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-header {
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
-  min-height: 16.42857px;
-}
-
-/* line 82, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-header .close {
-  margin-top: -2px;
-}
-
-/* line 87, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-title {
-  margin: 0;
-  line-height: 1.42857;
-}
-
-/* line 94, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-body {
-  position: relative;
-  padding: 15px;
-}
-
-/* line 100, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-footer {
-  padding: 15px;
-  text-align: right;
-  border-top: 1px solid #e5e5e5;
-}
-/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.modal-footer:before, .modal-footer:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.modal-footer:after {
-  clear: both;
-}
-/* line 107, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-footer .btn + .btn {
-  margin-left: 5px;
-  margin-bottom: 0;
-}
-/* line 112, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-footer .btn-group .btn + .btn {
-  margin-left: -1px;
-}
-/* line 116, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-footer .btn-block + .btn-block {
-  margin-left: 0;
-}
-
-/* line 122, ../assets/stylesheets/bootstrap/_modals.scss */
-.modal-scrollbar-measure {
-  position: absolute;
-  top: -9999px;
-  width: 50px;
-  height: 50px;
-  overflow: scroll;
-}
-
-@media (min-width: 768px) {
-  /* line 133, ../assets/stylesheets/bootstrap/_modals.scss */
-  .modal-dialog {
-    width: 600px;
-    margin: 30px auto;
-  }
-
-  /* line 137, ../assets/stylesheets/bootstrap/_modals.scss */
-  .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  }
-
-  /* line 142, ../assets/stylesheets/bootstrap/_modals.scss */
-  .modal-sm {
-    width: 300px;
-  }
-}
-@media (min-width: 992px) {
-  /* line 146, ../assets/stylesheets/bootstrap/_modals.scss */
-  .modal-lg {
-    width: 900px;
-  }
-}
-/* line 7, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip {
-  position: absolute;
-  z-index: 1070;
-  display: block;
-  visibility: visible;
-  font-size: 12px;
-  line-height: 1.4;
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-/* line 16, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.in {
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-}
-/* line 17, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.top {
-  margin-top: -3px;
-  padding: 5px 0;
-}
-/* line 18, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.right {
-  margin-left: 3px;
-  padding: 0 5px;
-}
-/* line 19, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.bottom {
-  margin-top: 3px;
-  padding: 5px 0;
-}
-/* line 20, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.left {
-  margin-left: -3px;
-  padding: 0 5px;
-}
-
-/* line 24, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip-inner {
-  max-width: 200px;
-  padding: 3px 8px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  background-color: black;
-  border-radius: 4px;
-}
-
-/* line 35, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip-arrow {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-
-/* line 43, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.top .tooltip-arrow {
-  bottom: 0;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px 5px 0;
-  border-top-color: black;
-}
-/* line 50, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.top-left .tooltip-arrow {
-  bottom: 0;
-  left: 5px;
-  border-width: 5px 5px 0;
-  border-top-color: black;
-}
-/* line 56, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.top-right .tooltip-arrow {
-  bottom: 0;
-  right: 5px;
-  border-width: 5px 5px 0;
-  border-top-color: black;
-}
-/* line 62, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.right .tooltip-arrow {
-  top: 50%;
-  left: 0;
-  margin-top: -5px;
-  border-width: 5px 5px 5px 0;
-  border-right-color: black;
-}
-/* line 69, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.left .tooltip-arrow {
-  top: 50%;
-  right: 0;
-  margin-top: -5px;
-  border-width: 5px 0 5px 5px;
-  border-left-color: black;
-}
-/* line 76, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.bottom .tooltip-arrow {
-  top: 0;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 0 5px 5px;
-  border-bottom-color: black;
-}
-/* line 83, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.bottom-left .tooltip-arrow {
-  top: 0;
-  left: 5px;
-  border-width: 0 5px 5px;
-  border-bottom-color: black;
-}
-/* line 89, ../assets/stylesheets/bootstrap/_tooltip.scss */
-.tooltip.bottom-right .tooltip-arrow {
-  top: 0;
-  right: 5px;
-  border-width: 0 5px 5px;
-  border-bottom-color: black;
-}
-
-/* line 6, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1060;
-  display: none;
-  max-width: 276px;
-  padding: 1px;
-  text-align: left;
-  background-color: white;
-  background-clip: padding-box;
-  border: 1px solid #cccccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  white-space: normal;
-}
-/* line 26, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.top {
-  margin-top: -10px;
-}
-/* line 27, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.right {
-  margin-left: 10px;
-}
-/* line 28, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.bottom {
-  margin-top: 10px;
-}
-/* line 29, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.left {
-  margin-left: -10px;
-}
-
-/* line 32, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover-title {
-  margin: 0;
-  padding: 8px 14px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 18px;
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #ebebeb;
-  border-radius: 5px 5px 0 0;
-}
-
-/* line 43, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover-content {
-  padding: 9px 14px;
-}
-
-/* line 53, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover > .arrow, .popover > .arrow:after {
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-
-/* line 62, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover > .arrow {
-  border-width: 11px;
-}
-
-/* line 65, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover > .arrow:after {
-  border-width: 10px;
-  content: "";
-}
-
-/* line 71, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.top > .arrow {
-  left: 50%;
-  margin-left: -11px;
-  border-bottom-width: 0;
-  border-top-color: #999999;
-  border-top-color: rgba(0, 0, 0, 0.25);
-  bottom: -11px;
-}
-/* line 78, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.top > .arrow:after {
-  content: " ";
-  bottom: 1px;
-  margin-left: -10px;
-  border-bottom-width: 0;
-  border-top-color: white;
-}
-/* line 86, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.right > .arrow {
-  top: 50%;
-  left: -11px;
-  margin-top: -11px;
-  border-left-width: 0;
-  border-right-color: #999999;
-  border-right-color: rgba(0, 0, 0, 0.25);
-}
-/* line 93, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.right > .arrow:after {
-  content: " ";
-  left: 1px;
-  bottom: -10px;
-  border-left-width: 0;
-  border-right-color: white;
-}
-/* line 101, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.bottom > .arrow {
-  left: 50%;
-  margin-left: -11px;
-  border-top-width: 0;
-  border-bottom-color: #999999;
-  border-bottom-color: rgba(0, 0, 0, 0.25);
-  top: -11px;
-}
-/* line 108, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.bottom > .arrow:after {
-  content: " ";
-  top: 1px;
-  margin-left: -10px;
-  border-top-width: 0;
-  border-bottom-color: white;
-}
-/* line 117, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.left > .arrow {
-  top: 50%;
-  right: -11px;
-  margin-top: -11px;
-  border-right-width: 0;
-  border-left-color: #999999;
-  border-left-color: rgba(0, 0, 0, 0.25);
-}
-/* line 124, ../assets/stylesheets/bootstrap/_popovers.scss */
-.popover.left > .arrow:after {
-  content: " ";
-  right: 1px;
-  border-right-width: 0;
-  border-left-color: white;
-  bottom: -10px;
 }
 
 /* line 7, ../assets/stylesheets/bootstrap/_carousel.scss */
@@ -7939,8 +5343,9 @@ button.close {
   width: 100%;
   background-color: #10a1cc;
   padding: 10px;
+  z-index: 1023;
 }
-/* line 45, ../scss/_header.scss */
+/* line 46, ../scss/_header.scss */
 .search-box .search-form button[type='submit'] {
   background: transparent;
   border: none;
@@ -7958,12 +5363,12 @@ button.close {
   width: 30px;
   margin-top: -30px;
 }
-/* line 62, ../scss/_header.scss */
+/* line 63, ../scss/_header.scss */
 .search-box .search-form ::before {
   font-size: 2.4rem;
 }
 
-/* line 70, ../scss/_header.scss */
+/* line 71, ../scss/_header.scss */
 .breadcrumb {
   background: rgba(255, 255, 255, 0.9);
   position: relative;
@@ -7972,23 +5377,23 @@ button.close {
   font-size: 85%;
   margin-bottom: 10px;
 }
-/* line 77, ../scss/_header.scss */
+/* line 78, ../scss/_header.scss */
 .breadcrumb li {
   display: inline-block;
   margin: 0;
   text-transform: uppercase;
 }
-/* line 81, ../scss/_header.scss */
+/* line 82, ../scss/_header.scss */
 .breadcrumb li li + li::before {
   padding: 0 5px;
   color: whitesmoke;
   content: "/";
 }
-/* line 87, ../scss/_header.scss */
+/* line 88, ../scss/_header.scss */
 .breadcrumb a {
   color: #373737;
 }
-/* line 90, ../scss/_header.scss */
+/* line 91, ../scss/_header.scss */
 .breadcrumb .active {
   color: #10a1cc;
 }
@@ -8003,28 +5408,37 @@ button.close {
   padding-top: 10px;
   background: white;
 }
-
 /* line 9, ../scss/_navbar.scss */
+.navbar-fixed-top .navbar-collapse a {
+  background: #eee;
+  border-bottom: 3px solid whitesmoke;
+  margin: 0;
+  padding: 5px 10px;
+  position: relative;
+}
+
+/* line 18, ../scss/_navbar.scss */
 .navbar-toggle {
   color: #10a1cc;
   margin-top: 0;
 }
-/* line 12, ../scss/_navbar.scss */
+/* line 21, ../scss/_navbar.scss */
 .navbar-toggle .icon-bar {
   background-color: #10a1cc;
   height: 3px;
+  border-bottom: 1px solid #C3E7F2;
 }
 
-/* line 17, ../scss/_navbar.scss */
+/* line 27, ../scss/_navbar.scss */
 .nav-tabs {
   border-bottom: 1px solid #ebebeb;
   background: whitesmoke;
 }
-/* line 20, ../scss/_navbar.scss */
+/* line 30, ../scss/_navbar.scss */
 .nav-tabs li {
   width: 100%;
 }
-/* line 23, ../scss/_navbar.scss */
+/* line 33, ../scss/_navbar.scss */
 .nav-tabs .caret {
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
@@ -8032,7 +5446,7 @@ button.close {
   float: right;
   margin-top: 5px;
 }
-/* line 29, ../scss/_navbar.scss */
+/* line 39, ../scss/_navbar.scss */
 .nav-tabs .dropdown-menu {
   position: relative;
   background: whitesmoke;
@@ -8045,11 +5459,11 @@ button.close {
   box-shadow: none;
 }
 
-/* line 42, ../scss/_navbar.scss */
+/* line 52, ../scss/_navbar.scss */
 .open a {
   border-color: transparent !important;
 }
-/* line 45, ../scss/_navbar.scss */
+/* line 55, ../scss/_navbar.scss */
 .open .caret {
   -webkit-transform: rotate(-180deg);
   -moz-transform: rotate(-180deg);
@@ -8058,11 +5472,27 @@ button.close {
   transform: rotate(-180deg);
 }
 
-/* line 2, ../scss/_events.scss */
+/* line 3, ../scss/_events.scss */
+.events ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 7, ../scss/_events.scss */
+.events li {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style: none;
+}
+
+/* line 16, ../scss/_events.scss */
 .event-row {
   position: relative;
 }
-/* line 4, ../scss/_events.scss */
+/* line 18, ../scss/_events.scss */
 .event-row .event-date {
   background: rgba(0, 0, 0, 0.7);
   color: white;
@@ -8074,7 +5504,7 @@ button.close {
   width: 80px;
   z-index: 11;
 }
-/* line 14, ../scss/_events.scss */
+/* line 28, ../scss/_events.scss */
 .event-row .event-date span {
   font-size: 2.2rem;
   font-weight: 500;
@@ -8083,40 +5513,137 @@ button.close {
   top: 2px;
   width: 30px;
 }
-/* line 22, ../scss/_events.scss */
+/* line 36, ../scss/_events.scss */
 .event-row .event-date .start-day {
   left: 6px;
 }
-/* line 25, ../scss/_events.scss */
+/* line 39, ../scss/_events.scss */
 .event-row .event-date .start-month {
   font-size: 1.4rem;
   left: 6px;
   top: 32px;
 }
-/* line 30, ../scss/_events.scss */
+/* line 44, ../scss/_events.scss */
 .event-row .event-date .separate-date {
   left: 35px;
   top: 10px;
   width: 10px;
 }
-/* line 35, ../scss/_events.scss */
+/* line 49, ../scss/_events.scss */
 .event-row .event-date .end-day {
   right: 6px;
 }
-/* line 38, ../scss/_events.scss */
+/* line 52, ../scss/_events.scss */
 .event-row .event-date .end-month {
   font-size: 1.4rem;
   right: 6px;
   top: 32px;
 }
-/* line 45, ../scss/_events.scss */
+/* line 59, ../scss/_events.scss */
 .event-row .event-title {
   color: #4882b0;
   margin-bottom: 15px;
 }
-/* line 49, ../scss/_events.scss */
+/* line 63, ../scss/_events.scss */
 .event-row .date {
   margin-bottom: 0;
+}
+
+/* line 68, ../scss/_events.scss */
+.more-events {
+  background: #d6d6d6;
+  padding: 0px;
+  text-align: center;
+}
+/* line 72, ../scss/_events.scss */
+.more-events .fa {
+  font-size: 40px;
+  display: block;
+  color: white;
+}
+
+/* line 78, ../scss/_events.scss */
+.less-events .fa-angle-down:before {
+  content: "\f106";
+}
+
+/* line 82, ../scss/_events.scss */
+figure.effect-events {
+  position: relative;
+}
+/* line 84, ../scss/_events.scss */
+figure.effect-events p {
+  width: 100px;
+  text-transform: none;
+  font-size: 121%;
+  line-height: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  text-align: center;
+}
+/* line 101, ../scss/_events.scss */
+figure.effect-events figcaption {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  opacity: 0;
+}
+/* line 111, ../scss/_events.scss */
+figure.effect-events a {
+  color: #373737;
+}
+
+/* line 117, ../scss/_events.scss */
+figure.effect-events:hover figcaption, figure.effect-events:focus figcaption {
+  opacity: 1;
+}
+
+/* line 122, ../scss/_events.scss */
+figure.effect-events figcaption, figure.effect-events figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 129, ../scss/_events.scss */
+figure.effect-events figcaption::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  background: white;
+}
+
+/* line 146, ../scss/_events.scss */
+figure.effect-events:hover figcaption::before {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
 }
 
 /* line 1, ../scss/_footer.scss */
@@ -8286,39 +5813,42 @@ h3 {
 
 /* line 38, ../scss/main.scss */
 .text-box, .event-row {
-  padding: 0;
   margin-bottom: 30px;
 }
 
-/* line 52, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 .list-group-item {
   background: whitesmoke;
   margin-bottom: 0;
   border: 0;
   border-bottom: 1px solid #e2e2e2;
 }
-/* line 57, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 .list-group-item:first-child {
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
 }
-/* line 61, ../scss/main.scss */
+/* line 60, ../scss/main.scss */
 .list-group-item:last-child {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+/* line 64, ../scss/main.scss */
+.list-group-item a {
+  display: block;
+}
 
-/* line 66, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 .list-bullet {
   padding: 8px 0;
   background: whitesmoke;
 }
-/* line 69, ../scss/main.scss */
+/* line 71, ../scss/main.scss */
 .list-bullet .list-group-item {
   border: 0;
   padding: 5px 15px;
 }
-/* line 72, ../scss/main.scss */
+/* line 74, ../scss/main.scss */
 .list-bullet .list-group-item::before {
   color: #10a1cc;
   content: '\2022';
@@ -8327,62 +5857,61 @@ h3 {
   line-height: 0;
 }
 
-/* line 86, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 .img-responsive {
   width: 100%;
 }
-/* line 88, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 .img-responsive:hover, .img-responsive:focus {
   opacity: 0.6;
   filter: alpha(opacity=60);
 }
 
-/* line 94, ../scss/main.scss */
+/* line 97, ../scss/main.scss */
 .img-link {
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   margin-bottom: 20px;
   display: block;
-  width: 100%;
   height: 163px;
   overflow: hidden;
 }
-/* line 101, ../scss/main.scss */
+/* line 103, ../scss/main.scss */
 .img-link:hover, .img-link:focus {
   background: #10a1cc;
 }
 
-/* line 108, ../scss/main.scss */
+/* line 111, ../scss/main.scss */
 .this-section .nav-tabs a {
   color: #373737;
 }
-/* line 110, ../scss/main.scss */
+/* line 113, ../scss/main.scss */
 .this-section .nav-tabs a:hover, .this-section .nav-tabs a:focus {
   color: #10a1cc;
 }
 
-/* line 119, ../scss/main.scss */
+/* line 122, ../scss/main.scss */
 .popular a {
   color: #373737;
 }
-/* line 121, ../scss/main.scss */
+/* line 124, ../scss/main.scss */
 .popular a:hover, .popular a:focus {
   color: #10a1cc;
 }
 
-/* line 128, ../scss/main.scss */
+/* line 131, ../scss/main.scss */
 .social-networks {
   padding: 0;
   text-align: center;
   margin: 20px 0;
 }
-/* line 133, ../scss/main.scss */
+/* line 136, ../scss/main.scss */
 .social-networks li {
   display: inline-block;
   margin: 0;
 }
-/* line 137, ../scss/main.scss */
+/* line 140, ../scss/main.scss */
 .social-networks a {
   width: 30px;
   white-space: nowrap;
@@ -8391,13 +5920,13 @@ h3 {
   font-size: 175%;
   color: #373737;
 }
-/* line 144, ../scss/main.scss */
+/* line 147, ../scss/main.scss */
 .social-networks a:before {
   text-indent: 0;
   float: left;
 }
 
-/* line 153, ../scss/main.scss */
+/* line 156, ../scss/main.scss */
 .carousel-caption {
   background: rgba(0, 0, 0, 0.7);
   left: 0;
@@ -8408,14 +5937,43 @@ h3 {
   font-weight: 600;
 }
 
-/* line 163, ../scss/main.scss */
+/* line 166, ../scss/main.scss */
 .carousel-control .fa {
   font-size: 65px;
   position: absolute;
   top: 35%;
 }
 
-/* line 169, ../scss/main.scss */
+/* line 172, ../scss/main.scss */
 .right.carousel-control {
   text-align: left;
+}
+
+/* line 175, ../scss/main.scss */
+.carousel-inner img {
+  width: 100%;
+}
+
+/* line 180, ../scss/main.scss */
+#loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 99;
+  height: 100%;
+}
+/* line 189, ../scss/main.scss */
+#loader #status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url(../img/preloader.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
 }
