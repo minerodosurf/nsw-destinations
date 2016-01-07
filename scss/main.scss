@@ -15,21 +15,25 @@ $blue-title: #4882b0;
 @import "header";
 @import "navbar";
 @import "events";
+@import "footer";
 
 //Basic styles font-family and size
 body{
 	color:$body-text;
 	font-family: $cabin-regular;
+	padding-top:40px;
 }
 h1, h2, h3{
-	font-weight:$cabin-semibold;
+	font-weight:normal;
 	font-size:22px;
 }
 h3{
 	font-size:18px;
 }
 
-
+.form-control{
+	border-radius: 0;
+}
 //TEXT BOX COMMON STYLES
 %text-box-layout{
 	padding:0;
@@ -96,10 +100,19 @@ h3{
 	overflow:hidden;
 	&:hover, &:focus{
 			background:$brand-primary;
-
 		}
 }
-
+//IN THIS SECTION
+.this-section{
+	.nav-tabs{
+		a{
+			color:$body-text;
+			&:hover, &:focus{
+			color:$brand-primary;
+		}
+		}
+	}
+}
 
 //POPULAR BOX
 .popular{
@@ -109,4 +122,50 @@ h3{
 			color:$brand-primary;
 		}
 	}
+}
+
+//SOCIAL MEDIA
+.social-networks {
+	padding:0;
+	text-align:center;
+	margin:20px 0;
+	
+	li {
+	    display: inline-block;
+	    margin: 0;
+	}
+	a {
+		width: 30px;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-indent: 40px;
+	    font-size: 175%;
+	    color: $body-text;
+		&:before {
+		    text-indent: 0;
+    		float: left;
+		}
+	}
+
+}
+
+//CITY GALLERY
+.carousel-caption{
+	background: rgba(0,0,0,0.7);
+	left:0;
+	right:0;
+	bottom:0;
+	padding:10px;
+	text-transform:uppercase;
+	font-weight: $cabin-semibold;
+}
+.carousel-control{
+	.fa{
+		font-size:65px;
+		position: absolute;
+    	top: 35%;
+	}
+}
+.right.carousel-control{
+	text-align:left;
 }

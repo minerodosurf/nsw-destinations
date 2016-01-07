@@ -26,7 +26,7 @@
   <body role="document">
 	<header id="header">
 	    <!-- Fixed navbar -->
-	    <nav class="navbar">
+	    <nav class="navbar navbar-fixed-top">
 	      <div class="container">
 	        <div class="navbar-header">
 	          <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -47,8 +47,8 @@
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav">
 	            <li class="active"><a href="#">Home</a></li>
-	            <li><a href="#about">About</a></li>
-	            <li><a href="#contact">Contact</a></li>
+	            <li><a href="#">About</a></li>
+	            <li><a href="#">Contact</a></li>
 	          </ul>
 	        </div><!--/.nav-collapse -->
 	      </div>
@@ -57,8 +57,8 @@
 	<img src="img/img-main.png" class="img-responsive" alt="Main Image">
     	<!-- breadcrumbs -->
 		  <ol class="breadcrumb">
-		    <li><a href="#">HOME</a></li>
-		    <li><a href="#">Destinations</a></li>
+		    <li><a href="#" onClick="return false;">HOME</a></li>
+		    <li><a href="#" onClick="return false;">Destinations</a></li>
 		    <li><a href="#" class="active">Sydney City</a></li>
 		  </ol>
 		<!-- /breadcrumbs -->
@@ -71,9 +71,9 @@
 		      Sydney City <span class="caret"></span>
 		    </a>
 		    <ul class="dropdown-menu"> 
-		    	<li><a href="#">Sydney West</a></li> 
-		    	<li><a href="#">Sydney North</a></li> 
-		    	<li><a href="#">Sydney East</a></li> 
+		    	<li><a href="#" onClick="return false;">Sydney West</a></li> 
+		    	<li><a href="#" onClick="return false;">Sydney North</a></li> 
+		    	<li><a href="#" onClick="return false;">Sydney East</a></li> 
 		    </ul>
 		  </li>
 		</ul>
@@ -93,13 +93,13 @@
 			      Vivid Sydney <span class="caret"></span>
 			    </a>
 			    <ul class="dropdown-menu"> 
-			    	<li><a href="#">Music</a></li> 
-			    	<li><a href="#">Light</a></li> 
-			    	<li><a href="#">Ideas</a></li> 
+			    	<li><a href="#" onClick="return false;">Music</a></li> 
+			    	<li><a href="#" onClick="return false;">Light</a></li> 
+			    	<li><a href="#" onClick="return false;">Ideas</a></li> 
 			    </ul>
 			  </li>
 			  <li>
-			    <a href="#" role="button">New Years Eve</a>
+			    <a href="#" role="button" onClick="return false;">New Years Eve</a>
 			</li>
 			</ul>
 		</section>
@@ -259,11 +259,11 @@
 
 				  <!-- Controls -->
 				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				    <span class="glyphicon fa fa-angle-left" aria-hidden="true"></span>
+				    <span class="fa fa-angle-left" aria-hidden="true"></span>
 				    <span class="sr-only">Previous</span>
 				  </a>
 				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				    <span class="glyphicon fa fa-angle-right" aria-hidden="true"></span>
+				    <span class="fa fa-angle-right" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
 				</div>
@@ -271,13 +271,13 @@
 		<section class="text-box social">
 			<h2>Follow Sydney</h2>
 			<ul class="social-networks">
-				  <li><a class="icon icon-only fa fa-facebook" target="_blank">Facebook</a></li>
-				  <li><a rel="external nofollow" href="https://twitter.com/sydney_sider" class="icon icon-only fa fa-twitter" target="_blank">Twitter</a></li>
-				  <li><a rel="external nofollow" href="https://plus.google.com/u/0/+Sydney" class="icon icon-only fa fa-google-plus" target="_blank">Google+</a></li>
-				  <li><a rel="external nofollow" href="https://www.youtube.com/user/seesydney" class="icon icon-only fa fa-youtube" target="_blank">YouTube</a></li>
-				  <li><a rel="external nofollow" href="https://instagram.com/sydney" class="icon icon-only fa fa-instagram" target="_blank">Instagram</a></li>
-				  <li><a rel="external nofollow" href="https://pinterest.com/seesydney" class="icon icon-only fa fa-pinterest" target="_blank">Pinterest</a></li>
-				  <li><a rel="external nofollow" href="/nz/sydney-life/" class="icon icon-only fa fa-rss">Blog</a></li>
+				  <li><a class="fa fa-facebook" target="_blank">Facebook</a></li>
+				  <li><a rel="external nofollow" href="https://twitter.com/sydney_sider" class="fa fa-twitter" target="_blank">Twitter</a></li>
+				  <li><a rel="external nofollow" href="https://plus.google.com/u/0/+Sydney" class="fa fa-google-plus" target="_blank">Google+</a></li>
+				  <li><a rel="external nofollow" href="https://www.youtube.com/user/seesydney" class="fa fa-youtube" target="_blank">YouTube</a></li>
+				  <li><a rel="external nofollow" href="https://instagram.com/sydney" class="fa fa-instagram" target="_blank">Instagram</a></li>
+				  <li><a rel="external nofollow" href="https://pinterest.com/seesydney" class="fa fa-pinterest" target="_blank">Pinterest</a></li>
+				  <li><a rel="external nofollow" href="/nz/sydney-life/" class="fa fa-rss">Blog</a></li>
 			</ul>
 		</section>
 		
@@ -287,8 +287,8 @@
     	<div class="container">
 	    	<ul class="nav nav-tabs">
 				  <li role="presentation" class="dropdown">
-				    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-				      Destination <span class="caret"></span>
+				    <a class="dropdown-toggle first-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+				      Destination <span class="caret"><i class="fa fa-angle-down"></i></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
 				    	<li><a href="#" onClick="return false;">Music</a></li> 
@@ -297,8 +297,8 @@
 				    </ul>
 				  </li>
 				  <li role="presentation" class="dropdown">
-				    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-				      Events <span class="caret"></span>
+				    <a class="dropdown-toggle second-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+				      Events <span class="caret"><i class="fa fa-angle-down"></i></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
 				    	<li><a href="#" onClick="return false;">Music</a></li> 
@@ -307,8 +307,8 @@
 				    </ul>
 				  </li>
 				  <li role="presentation" class="dropdown">
-				    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-				      Things To Do <span class="caret"></span>
+				    <a class="dropdown-toggle third-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+				      Things To Do <span class="caret"><i class="fa fa-angle-down"></i></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
 				    	<li><a href="#" onClick="return false;">Music</a></li> 
@@ -318,9 +318,9 @@
 				  </li>
 			</ul>
 			<section class="text-box newsletter">
-				<a href="#" title="Escapes Newsletter" class="icon fa fa-envelope">Escapes Newsletter</a>
-				<input type="email" name="email" id="escapes-email-address" title="Enter your Email" placeholder="Enter your Email">
-				<button>Sign up!</button>
+				<a href="#" title="Escapes Newsletter"><i class="fa fa-envelope"></i>Escapes Newsletter</a>
+				<input type="email" name="email" class="form-control" title="Enter your Email" placeholder="Enter your Email">
+				<button class="btn btn-primary">Sign up!</button>
 			</section>
 			<section class="text-box footer-links">
 				<ul>
@@ -336,8 +336,8 @@
 			</section>
 			<ul class="nav nav-tabs">
 				  <li role="presentation" class="dropdown">
-				    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-				      Sydney Accomodation <span class="caret"></span>
+				    <a class="dropdown-toggle fourth-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+				      Sydney Accomodation <span class="caret"><i class="fa fa-angle-down"></i></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
 				    	<li><a href="#" onClick="return false;">Music</a></li> 
@@ -346,8 +346,8 @@
 				    </ul>
 				  </li>
 				  <li role="presentation" class="dropdown">
-				    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-				      Information <span class="caret"></span>
+				    <a class="dropdown-toggle fifth-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+				      Information <span class="caret"><i class="fa fa-angle-down"></i></span>
 				    </a>
 				    <ul class="dropdown-menu"> 
 				    	<li><a href="#" onClick="return false;">Music</a></li> 

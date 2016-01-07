@@ -2,8 +2,13 @@
 .navbar{
 	margin-bottom:0;
 }
+.navbar-fixed-top{
+	padding-top:10px;
+	background: $color-white;
+}
 .navbar-toggle {
     color: $brand-primary;
+    margin-top: 0;
 		.icon-bar {
     		background-color: $brand-primary;
     		height: 3px;
@@ -16,7 +21,7 @@
 		width: 100%;
     }
     .caret{
-    	@include transition(all 0.5s ease);
+    	@include transition(all 0.2s ease);
     	float: right;
     	margin-top: 5px;
 
@@ -34,8 +39,11 @@
 	}
 }
 .open{
+	a{
+		border-color:transparent !important;
+	}
 	.caret{
-		@include transform(rotate(180deg));
+		@include transform(rotate(-180deg));
 	}
 	
 }
