@@ -27,5 +27,25 @@ jQuery("document").ready(function($){
         $(this).addClass('less-events');
       }
     });
+
+
+    $( ".dropdown-toggle-effect" ).click(function() {
+
+    // Toggle
+    CurrentBlock = $(this).closest('.effect');
+    if(CurrentBlock.hasClass('open')) {
+      CurrentBlock.toggleClass('open');
+
+    // Open
+    } else {
+
+      // Close Everything Else
+      $('.effect').removeClass('open');
+
+      // Open This One
+        CurrentBlock.addClass('open');
+    }
+
+    });
     
 });
